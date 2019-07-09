@@ -1,0 +1,10 @@
+ INSERT INTO CatCamionetas
+            (
+            tNombre,
+            tCodEstatus
+			)
+            VALUES
+            (
+            'Voyaguer',
+            'AC'
+            )

@@ -1,0 +1,24 @@
+INSERT INTO SisRegistrosCargas (eCodEvento, eCodUsuario, fhFechaCarga, eCodCamioneta) VALUES (125, 1, '2019-06-02 20:28:36', 1)
+
+INSERT INTO RelRegistrosCargasInventario (eCodRegistro, eCodInventario, eCantidad) VALUES (1, 93, 20)
+
+INSERT INTO RelRegistrosCargasInventario (eCodRegistro, eCodInventario, eCantidad) VALUES (1, 87, 10)
+
+INSERT INTO RelRegistrosCargasInventario (eCodRegistro, eCodInventario, eCantidad) VALUES (1, 91, 15)
+
+INSERT INTO RelRegistrosCargasInventario (eCodRegistro, eCodInventario, eCantidad) VALUES (1, 18, 7)
+
+INSERT INTO RelRegistrosCargasInventario (eCodRegistro, eCodInventario, eCantidad) VALUES (1, 86, 400)
+
+INSERT INTO RelRegistrosCargasInventario (eCodRegistro, eCodInventario, eCantidad) VALUES (1, 92, 15)
+
+INSERT INTO RelRegistrosCargasInventario (eCodRegistro, eCodInventario, eCantidad) VALUES (1, 83, 100)
+
+INSERT INTO RelRegistrosCargasInventario (eCodRegistro, eCodInventario, eCantidad) VALUES (1, 25, 13)
+
+INSERT INTO RelRegistrosCargasInventario (eCodRegistro, eCodInventario, eCantidad) VALUES (1, 85, 200)
+
+INSERT INTO RelRegistrosCargasInventario (eCodRegistro, eCodInventario, eCantidad) VALUES (1, 24, 150)
+
+INSERT INTO RelRegistrosCargasInventario (eCodRegistro, eCodInventario, eCantidad) VALUES (1, 84, 700)
+

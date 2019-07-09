@@ -1,0 +1,1 @@
+[21-Mar-2019 11:26:22 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2

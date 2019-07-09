@@ -1,0 +1,11 @@
+[28-Dec-2018 17:26:16 America/Bogota] PHP Notice:  Undefined variable: conexion in /home/mobiliar/app.antroadomicilio.com/install/install.php on line 4
+[28-Dec-2018 17:26:16 America/Bogota] PHP Notice:  Undefined variable: pf in /home/mobiliar/app.antroadomicilio.com/install/install.php on line 9
+[28-Dec-2018 17:26:16 America/Bogota] PHP Warning:  fwrite() expects parameter 1 to be resource, null given in /home/mobiliar/app.antroadomicilio.com/install/install.php on line 9
+[28-Dec-2018 17:26:16 America/Bogota] PHP Notice:  Undefined variable: pf in /home/mobiliar/app.antroadomicilio.com/install/install.php on line 10
+[28-Dec-2018 17:26:16 America/Bogota] PHP Warning:  fclose() expects parameter 1 to be resource, null given in /home/mobiliar/app.antroadomicilio.com/install/install.php on line 10
+[28-Dec-2018 17:26:16 America/Bogota] PHP Notice:  Undefined variable: pf in /home/mobiliar/app.antroadomicilio.com/install/install.php on line 13
+[28-Dec-2018 17:26:16 America/Bogota] PHP Warning:  fwrite() expects parameter 1 to be resource, null given in /home/mobiliar/app.antroadomicilio.com/install/install.php on line 13
+[28-Dec-2018 17:26:16 America/Bogota] PHP Notice:  Undefined variable: pf in /home/mobiliar/app.antroadomicilio.com/install/install.php on line 14
+[28-Dec-2018 17:26:16 America/Bogota] PHP Warning:  fclose() expects parameter 1 to be resource, null given in /home/mobiliar/app.antroadomicilio.com/install/install.php on line 14
+[28-Dec-2018 17:26:16 America/Bogota] PHP Notice:  Undefined variable: scriptFleName in /home/mobiliar/app.antroadomicilio.com/install/install.php on line 37
+[28-Dec-2018 17:26:16 America/Bogota] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/mobiliar/app.antroadomicilio.com/install/install.php on line 37

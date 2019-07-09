@@ -1,0 +1,11 @@
+{"fhFechaConsulta":"2019-06-01"}
+
+SELECT be.*, cc.tNombres nombreCliente, cc.tApellidos apellidosCliente,
+															su.tNombre as promotor, ce.tNombre Estatus, ce.tIcono FROM BitEventos be INNER JOIN CatClientes cc ON cc.eCodCliente = be.eCodCliente
+															INNER JOIN CatEstatus ce ON ce.eCodEstatus = be.eCodEstatus
+														LEFT JOIN SisUsuarios su ON su.eCodUsuario = be.eCodUsuario
+                                                        WHERE
+                                                        be.fhFechaEvento >= '2019-06-01 00:00:00' AND be.fhFechaEvento<='2019-06-01 23:59:59' AND be.eCodEstatus<>4 AND be.eCodTipoDocumento=1 ORDER BY be.fhFechaEvento DESC
+
+{"eventos":{"0":"177","eCodEvento":"177","1":"1","eCodEstatus":"1","2":"15","eCodUsuario":"15","3":"148","eCodCliente":"148","4":"2019-06-01 00:00:00","fhFechaEvento":"2019-06-01 00:00:00","5":"14:00:00","tmHoraMontaje":"14:00:00","6":"TWFyaWFubyBTYWxhcyAjMjEsIENvbC4gRXN0YW56dWVsYSwgR0FN","tDireccion":"TWFyaWFubyBTYWxhcyAjMjEsIENvbC4gRXN0YW56dWVsYSwgR0FN","7":"RW50cmUgRWplIDUgeSBSYXlvbg0KUC5CLiAgQ2FzYSBGYWNoYWRhIE5hcmFuamE=","tObservaciones":"RW50cmUgRWplIDUgeSBSYXlvbg0KUC5CLiAgQ2FzYSBGYWNoYWRhIE5hcmFuamE=","8":"2","eCodTipoDocumento":"2","9":null,"bIVA":null,"10":"2019-05-25 12:41:49","fhFecha":"2019-05-25 12:41:49","11":null,"tOperadorEntrega":null,"12":null,"tOperadorRecoleccion":null,"13":"Edna ","nombreCliente":"Edna ","14":"Mu\u00c3\u00b1oz","apellidosCliente":"Mu\u00c3\u00b1oz","15":"Ernesto","promotor":"Ernesto","16":"Nuevo","Estatus":"Nuevo","17":"far fa-question-circle","tIcono":"far fa-question-circle"}}
+

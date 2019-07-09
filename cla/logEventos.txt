@@ -1,0 +1,18 @@
+1
+
+{"fhFechaConsulta":"2007","bAll":"1"}
+
+SELECT be.*, cc.tNombres nombreCliente, cc.tApellidos apellidosCliente,
+															su.tNombre as promotor, ce.tNombre Estatus, ce.tIcono FROM BitEventos be INNER JOIN CatClientes cc ON cc.eCodCliente = be.eCodCliente
+															INNER JOIN CatEstatus ce ON ce.eCodEstatus = be.eCodEstatus
+														LEFT JOIN SisUsuarios su ON su.eCodUsuario = be.eCodUsuario
+                                                        WHERE
+                                                        be.fhFechaEvento >= '2019-06-06 00:00:00' AND be.fhFechaEvento<='2019-06-06 23:59:59' AND be.eCodEstatus<>4 AND be.eCodTipoDocumento=1 ORDER BY be.fhFechaEvento DESC
+
+SELECT be.*, cc.tNombres nombreCliente, cc.tApellidos apellidosCliente,
+															su.tNombre as promotor, ce.tNombre Estatus, ce.tIcono FROM BitEventos be INNER JOIN CatClientes cc ON cc.eCodCliente = be.eCodCliente
+															INNER JOIN CatEstatus ce ON ce.eCodEstatus = be.eCodEstatus
+														LEFT JOIN SisUsuarios su ON su.eCodUsuario = be.eCodUsuario
+                                                        WHERE
+                                                        be.fhFechaEvento >= '2019-06-06 00:00:00' AND be.fhFechaEvento<='2019-06-06 23:59:59' AND be.eCodEstatus<>4 AND be.eCodTipoDocumento=2 ORDER BY be.fhFechaEvento DESC
+

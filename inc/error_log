@@ -1,0 +1,918 @@
+[04-Jun-2019 11:36:30 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[04-Jun-2019 11:36:30 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[04-Jun-2019 12:00:30 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[04-Jun-2019 12:00:30 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[04-Jun-2019 12:01:06 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[04-Jun-2019 12:01:06 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[04-Jun-2019 12:16:06 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[04-Jun-2019 12:16:06 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[04-Jun-2019 12:45:34 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[04-Jun-2019 12:45:34 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[04-Jun-2019 12:45:45 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[04-Jun-2019 12:45:45 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[04-Jun-2019 13:19:34 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[04-Jun-2019 13:19:34 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[04-Jun-2019 13:55:41 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[04-Jun-2019 13:55:41 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[04-Jun-2019 13:57:18 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[04-Jun-2019 13:57:18 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[04-Jun-2019 13:57:35 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[04-Jun-2019 13:57:35 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[04-Jun-2019 14:02:50 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[04-Jun-2019 14:02:50 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[04-Jun-2019 14:07:44 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[04-Jun-2019 14:07:44 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[04-Jun-2019 14:10:36 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[04-Jun-2019 14:10:36 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[04-Jun-2019 14:23:58 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[04-Jun-2019 14:23:58 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[04-Jun-2019 15:24:07 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[04-Jun-2019 15:24:07 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[04-Jun-2019 15:24:33 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[04-Jun-2019 15:24:33 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[04-Jun-2019 15:25:27 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[04-Jun-2019 15:25:27 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[04-Jun-2019 17:37:27 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[04-Jun-2019 17:37:27 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[04-Jun-2019 17:37:33 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[04-Jun-2019 17:37:33 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[04-Jun-2019 17:37:36 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[04-Jun-2019 17:37:36 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[04-Jun-2019 17:38:14 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[04-Jun-2019 17:38:14 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[04-Jun-2019 17:38:35 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[04-Jun-2019 17:38:35 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[04-Jun-2019 17:44:30 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[04-Jun-2019 17:44:30 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[04-Jun-2019 17:56:07 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[04-Jun-2019 17:56:07 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[04-Jun-2019 18:26:31 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[04-Jun-2019 18:26:31 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[04-Jun-2019 18:27:23 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[04-Jun-2019 18:27:23 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[05-Jun-2019 00:58:35 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[05-Jun-2019 00:58:35 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[05-Jun-2019 00:59:11 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[05-Jun-2019 00:59:11 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[05-Jun-2019 00:59:29 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[05-Jun-2019 00:59:29 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[05-Jun-2019 00:59:30 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[05-Jun-2019 00:59:30 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[05-Jun-2019 00:59:39 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[05-Jun-2019 00:59:39 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[05-Jun-2019 00:59:45 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[05-Jun-2019 00:59:45 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[05-Jun-2019 00:59:46 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[05-Jun-2019 00:59:46 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[05-Jun-2019 16:07:19 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[05-Jun-2019 16:07:19 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[05-Jun-2019 16:32:27 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[05-Jun-2019 16:32:27 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[06-Jun-2019 00:21:36 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[06-Jun-2019 00:21:36 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[06-Jun-2019 00:40:00 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[06-Jun-2019 00:40:00 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[06-Jun-2019 00:40:10 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[06-Jun-2019 00:40:10 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[06-Jun-2019 00:41:10 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[06-Jun-2019 00:41:10 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[06-Jun-2019 00:41:31 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[06-Jun-2019 00:41:31 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[06-Jun-2019 00:43:23 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[06-Jun-2019 00:43:23 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[06-Jun-2019 00:43:27 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[06-Jun-2019 00:43:27 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[06-Jun-2019 00:45:47 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[06-Jun-2019 00:45:47 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[06-Jun-2019 01:35:40 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[06-Jun-2019 01:35:40 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[06-Jun-2019 01:36:14 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[06-Jun-2019 01:36:14 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[06-Jun-2019 01:36:19 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[06-Jun-2019 01:36:19 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[06-Jun-2019 01:36:19 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[06-Jun-2019 01:36:19 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[06-Jun-2019 01:36:20 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[06-Jun-2019 01:36:20 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[06-Jun-2019 01:36:21 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[06-Jun-2019 01:36:21 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[06-Jun-2019 07:54:43 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[06-Jun-2019 07:54:43 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[06-Jun-2019 07:55:08 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[06-Jun-2019 07:55:08 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[06-Jun-2019 08:15:05 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[06-Jun-2019 08:15:05 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[06-Jun-2019 08:16:45 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[06-Jun-2019 08:16:45 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[06-Jun-2019 08:17:13 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[06-Jun-2019 08:17:13 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[06-Jun-2019 08:17:21 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[06-Jun-2019 08:17:21 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[06-Jun-2019 12:14:20 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[06-Jun-2019 12:14:20 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[06-Jun-2019 12:15:12 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[06-Jun-2019 12:15:12 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[06-Jun-2019 13:36:02 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[06-Jun-2019 13:36:02 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[06-Jun-2019 13:36:51 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[06-Jun-2019 13:36:51 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[09-Jun-2019 14:19:57 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[09-Jun-2019 14:19:57 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[09-Jun-2019 14:20:38 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[09-Jun-2019 14:20:38 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[09-Jun-2019 14:21:43 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[09-Jun-2019 14:21:43 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[09-Jun-2019 14:22:03 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[09-Jun-2019 14:22:03 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[09-Jun-2019 16:41:22 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[09-Jun-2019 16:41:22 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[09-Jun-2019 16:41:37 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[09-Jun-2019 16:41:37 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[12-Jun-2019 11:12:48 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[12-Jun-2019 11:12:48 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[12-Jun-2019 11:13:58 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[12-Jun-2019 11:13:58 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[15-Jun-2019 00:28:37 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[15-Jun-2019 00:28:37 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[15-Jun-2019 00:28:44 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[15-Jun-2019 00:28:44 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[15-Jun-2019 00:28:44 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[15-Jun-2019 00:28:44 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[15-Jun-2019 00:30:00 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[15-Jun-2019 00:30:00 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[15-Jun-2019 00:30:04 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[15-Jun-2019 00:30:04 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[15-Jun-2019 00:30:04 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[15-Jun-2019 00:30:04 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[15-Jun-2019 00:30:34 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[15-Jun-2019 00:30:34 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[15-Jun-2019 00:34:51 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[15-Jun-2019 00:34:51 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[15-Jun-2019 00:34:56 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[15-Jun-2019 00:34:56 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[15-Jun-2019 00:34:57 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[15-Jun-2019 00:34:57 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[15-Jun-2019 00:48:11 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[15-Jun-2019 00:48:11 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[15-Jun-2019 00:48:24 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[15-Jun-2019 00:48:24 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[15-Jun-2019 00:48:26 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[15-Jun-2019 00:48:26 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[15-Jun-2019 00:50:27 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[15-Jun-2019 00:50:27 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[15-Jun-2019 00:51:46 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[15-Jun-2019 00:51:46 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[15-Jun-2019 00:54:09 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[15-Jun-2019 00:54:09 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[15-Jun-2019 00:55:13 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[15-Jun-2019 00:55:13 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[15-Jun-2019 00:56:31 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[15-Jun-2019 00:56:31 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[15-Jun-2019 22:30:31 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[15-Jun-2019 22:30:31 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[16-Jun-2019 14:49:17 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[16-Jun-2019 14:49:17 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[16-Jun-2019 15:15:32 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[16-Jun-2019 15:15:32 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[16-Jun-2019 16:00:25 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[16-Jun-2019 16:00:25 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 11:14:51 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 11:14:51 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 11:14:55 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 11:14:55 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 11:14:56 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 11:14:56 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 11:20:07 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 11:20:07 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 11:25:07 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 11:25:07 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 11:25:13 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 11:25:13 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 11:25:14 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 11:25:14 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 11:25:26 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 11:25:26 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 11:25:31 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 11:25:31 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 11:25:32 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 11:25:32 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 11:26:35 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 11:26:35 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 11:28:44 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 11:28:44 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 11:29:22 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 11:29:22 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 11:29:26 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 11:29:26 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 11:29:27 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 11:29:27 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 11:29:57 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 11:29:57 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 11:30:31 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 11:30:31 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 11:30:38 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 11:30:38 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 11:30:45 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 11:30:45 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 11:30:45 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 11:30:45 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 11:31:20 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 11:31:20 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 11:34:50 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 11:34:50 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 11:35:33 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 11:35:33 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 11:35:33 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 11:35:33 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 11:35:45 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 11:35:45 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 11:35:50 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 11:35:50 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 11:35:51 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 11:35:51 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 11:36:04 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 11:36:04 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 11:36:09 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 11:36:09 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 11:36:09 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 11:36:09 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 11:41:54 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 11:41:54 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 11:57:05 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 11:57:05 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 11:57:26 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 11:57:26 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 11:57:27 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 11:57:27 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 11:58:26 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 11:58:26 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 12:00:39 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 12:00:39 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 12:00:58 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 12:00:58 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 12:01:03 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 12:01:03 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 12:01:03 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 12:01:03 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 12:03:16 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 12:03:16 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 12:06:00 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 12:06:00 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 12:06:06 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 12:06:06 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 12:06:11 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 12:06:11 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 12:06:12 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 12:06:12 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 12:07:39 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 12:07:39 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 12:15:01 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 12:15:01 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 12:17:02 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 12:17:02 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 12:17:59 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 12:17:59 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 12:18:18 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 12:18:18 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 12:18:21 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 12:18:21 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 12:18:54 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 12:18:54 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 12:19:09 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 12:19:09 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 12:19:09 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 12:19:09 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 12:21:06 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 12:21:06 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 12:21:10 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 12:21:10 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 12:21:11 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 12:21:11 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 12:39:46 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 12:39:46 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 12:53:02 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 12:53:02 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 12:53:43 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 12:53:43 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 12:54:04 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 12:54:04 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 12:54:05 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 12:54:05 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 13:56:19 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 13:56:19 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 14:11:06 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 14:11:06 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 14:11:13 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 14:11:13 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 14:11:14 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 14:11:14 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 14:11:43 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 14:11:43 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 14:12:17 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 14:12:17 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 14:12:19 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 14:12:19 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 14:14:27 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 14:14:27 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 14:23:39 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 14:23:39 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 14:23:46 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 14:23:46 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 14:31:40 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 14:31:40 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 14:32:56 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 14:32:56 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 14:34:56 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 14:34:56 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 14:38:27 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 14:38:27 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 14:53:36 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 14:53:36 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 14:53:52 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 14:53:52 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 14:53:53 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 14:53:53 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 14:53:56 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 14:53:56 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 14:54:01 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 14:54:01 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 14:54:03 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 14:54:03 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 15:09:55 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 15:09:55 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 16:14:30 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 16:14:30 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 18:14:18 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 18:14:18 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 18:16:51 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 18:16:51 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 18:18:49 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 18:18:49 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 18:20:49 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 18:20:49 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 18:22:21 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 18:22:21 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 18:32:48 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 18:32:48 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[17-Jun-2019 18:36:22 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[17-Jun-2019 18:36:22 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[18-Jun-2019 09:58:00 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[18-Jun-2019 09:58:00 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[18-Jun-2019 10:14:43 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[18-Jun-2019 10:14:43 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[18-Jun-2019 10:15:44 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[18-Jun-2019 10:15:44 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[18-Jun-2019 10:15:48 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[18-Jun-2019 10:15:48 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[18-Jun-2019 11:10:40 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[18-Jun-2019 11:10:40 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[18-Jun-2019 11:11:10 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[18-Jun-2019 11:11:10 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[18-Jun-2019 11:12:46 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[18-Jun-2019 11:12:46 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[18-Jun-2019 15:15:19 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[18-Jun-2019 15:15:19 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[18-Jun-2019 15:59:45 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[18-Jun-2019 15:59:45 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[18-Jun-2019 16:04:50 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[18-Jun-2019 16:04:50 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[18-Jun-2019 16:06:45 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[18-Jun-2019 16:06:45 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[18-Jun-2019 16:37:51 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[18-Jun-2019 16:37:51 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[18-Jun-2019 16:43:44 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[18-Jun-2019 16:43:44 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[18-Jun-2019 16:44:15 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[18-Jun-2019 16:44:15 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[18-Jun-2019 17:43:23 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[18-Jun-2019 17:43:23 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[19-Jun-2019 13:31:48 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[19-Jun-2019 13:31:48 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[20-Jun-2019 10:14:44 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[20-Jun-2019 10:14:44 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[20-Jun-2019 10:24:59 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[20-Jun-2019 10:24:59 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[20-Jun-2019 10:41:17 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[20-Jun-2019 10:41:17 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[20-Jun-2019 10:43:38 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[20-Jun-2019 10:43:38 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[20-Jun-2019 10:47:11 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[20-Jun-2019 10:47:11 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[20-Jun-2019 10:53:00 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[20-Jun-2019 10:53:00 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[20-Jun-2019 13:23:04 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[20-Jun-2019 13:23:04 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[20-Jun-2019 15:00:35 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[20-Jun-2019 15:00:35 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[20-Jun-2019 15:01:15 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[20-Jun-2019 15:01:15 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[20-Jun-2019 15:06:18 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[20-Jun-2019 15:06:18 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[20-Jun-2019 15:07:31 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[20-Jun-2019 15:07:31 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[20-Jun-2019 15:08:42 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[20-Jun-2019 15:08:42 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[20-Jun-2019 15:32:27 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[20-Jun-2019 15:32:27 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[20-Jun-2019 15:37:40 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[20-Jun-2019 15:37:40 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[20-Jun-2019 15:43:39 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[20-Jun-2019 15:43:39 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[20-Jun-2019 15:45:50 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[20-Jun-2019 15:45:50 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[20-Jun-2019 15:53:49 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[20-Jun-2019 15:53:49 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[20-Jun-2019 16:36:23 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[20-Jun-2019 16:36:23 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[21-Jun-2019 12:52:50 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[21-Jun-2019 12:52:50 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[21-Jun-2019 12:54:19 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[21-Jun-2019 12:54:19 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[21-Jun-2019 13:00:35 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[21-Jun-2019 13:00:35 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[21-Jun-2019 13:03:39 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[21-Jun-2019 13:03:39 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[22-Jun-2019 10:48:40 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[22-Jun-2019 10:48:40 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[22-Jun-2019 16:11:19 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[22-Jun-2019 16:11:19 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[22-Jun-2019 16:11:27 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[22-Jun-2019 16:11:27 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[22-Jun-2019 16:19:05 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[22-Jun-2019 16:19:05 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[22-Jun-2019 16:19:09 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[22-Jun-2019 16:19:09 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[24-Jun-2019 09:51:32 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[24-Jun-2019 09:51:32 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[25-Jun-2019 11:45:38 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[25-Jun-2019 11:45:38 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[26-Jun-2019 10:41:39 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[26-Jun-2019 10:41:39 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[26-Jun-2019 11:53:40 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[26-Jun-2019 11:53:40 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[27-Jun-2019 10:27:48 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[27-Jun-2019 10:27:48 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[27-Jun-2019 13:08:28 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[27-Jun-2019 13:08:28 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[27-Jun-2019 13:08:41 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[27-Jun-2019 13:08:41 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[27-Jun-2019 14:44:41 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[27-Jun-2019 14:44:41 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[27-Jun-2019 14:53:08 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[27-Jun-2019 14:53:08 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[27-Jun-2019 15:01:31 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[27-Jun-2019 15:01:32 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[27-Jun-2019 15:05:30 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[27-Jun-2019 15:05:30 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[27-Jun-2019 15:50:44 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[27-Jun-2019 15:50:44 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[27-Jun-2019 15:56:18 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[27-Jun-2019 15:56:18 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[27-Jun-2019 16:05:07 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[27-Jun-2019 16:05:07 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[27-Jun-2019 16:27:01 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[27-Jun-2019 16:27:01 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[27-Jun-2019 18:26:48 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[27-Jun-2019 18:26:48 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[28-Jun-2019 10:18:45 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[28-Jun-2019 10:18:45 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[28-Jun-2019 10:19:19 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[28-Jun-2019 10:19:19 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[28-Jun-2019 11:43:59 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[28-Jun-2019 11:44:00 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[28-Jun-2019 13:40:55 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[28-Jun-2019 13:40:55 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[28-Jun-2019 15:54:44 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[28-Jun-2019 15:54:44 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[28-Jun-2019 21:47:04 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[28-Jun-2019 21:47:04 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[28-Jun-2019 21:48:09 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[28-Jun-2019 21:48:09 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[28-Jun-2019 21:49:14 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[28-Jun-2019 21:49:14 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[28-Jun-2019 22:01:19 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[28-Jun-2019 22:01:19 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[28-Jun-2019 22:03:30 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[28-Jun-2019 22:03:30 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[29-Jun-2019 10:40:08 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[29-Jun-2019 10:40:08 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[29-Jun-2019 10:40:49 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[29-Jun-2019 10:40:49 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[29-Jun-2019 10:41:21 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[29-Jun-2019 10:41:21 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[29-Jun-2019 10:48:26 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[29-Jun-2019 10:48:26 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[29-Jun-2019 11:08:45 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[29-Jun-2019 11:08:45 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[29-Jun-2019 11:36:28 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[29-Jun-2019 11:36:28 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[29-Jun-2019 11:53:25 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[29-Jun-2019 11:53:25 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[29-Jun-2019 11:53:30 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[29-Jun-2019 11:53:30 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[29-Jun-2019 12:02:01 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[29-Jun-2019 12:02:01 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[29-Jun-2019 13:23:20 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[29-Jun-2019 13:23:20 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[29-Jun-2019 15:12:59 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[29-Jun-2019 15:12:59 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[29-Jun-2019 17:37:00 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[29-Jun-2019 17:37:00 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[29-Jun-2019 17:48:50 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[29-Jun-2019 17:48:50 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[29-Jun-2019 17:48:56 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[29-Jun-2019 17:48:56 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[29-Jun-2019 17:51:49 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[29-Jun-2019 17:51:49 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[29-Jun-2019 18:06:09 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[29-Jun-2019 18:06:09 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[29-Jun-2019 18:09:21 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[29-Jun-2019 18:09:21 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[29-Jun-2019 18:32:03 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[29-Jun-2019 18:32:03 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[29-Jun-2019 20:59:51 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[29-Jun-2019 20:59:51 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[29-Jun-2019 21:57:17 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[29-Jun-2019 21:57:17 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[29-Jun-2019 22:17:24 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[29-Jun-2019 22:17:24 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[01-Jul-2019 01:18:02 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[01-Jul-2019 01:18:02 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[01-Jul-2019 12:07:10 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/xhanorg/eventos.sdibabec.com/cnx/swgc-mysql.php on line 2
+[01-Jul-2019 12:07:10 America/Chicago] PHP Notice:  Undefined variable: dateArray in /home/xhanorg/eventos.sdibabec.com/inc/inc-cal.php on line 154
+[02-Jul-2019 12:42:28 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[02-Jul-2019 12:42:28 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[02-Jul-2019 12:44:55 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[02-Jul-2019 12:44:55 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[02-Jul-2019 12:55:18 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[02-Jul-2019 12:55:18 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[02-Jul-2019 12:55:31 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[02-Jul-2019 12:55:31 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[02-Jul-2019 12:56:13 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[02-Jul-2019 12:56:13 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[02-Jul-2019 12:57:16 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[02-Jul-2019 12:57:16 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[02-Jul-2019 13:01:37 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[02-Jul-2019 13:01:37 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[02-Jul-2019 13:01:46 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[02-Jul-2019 13:01:46 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[02-Jul-2019 13:15:11 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[02-Jul-2019 13:15:11 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[02-Jul-2019 13:15:45 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[02-Jul-2019 13:15:46 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[02-Jul-2019 13:21:51 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[02-Jul-2019 13:21:51 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[02-Jul-2019 13:24:44 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[02-Jul-2019 13:24:44 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[02-Jul-2019 13:29:58 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[02-Jul-2019 13:29:58 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[02-Jul-2019 13:33:05 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[02-Jul-2019 13:33:05 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[02-Jul-2019 13:38:14 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[02-Jul-2019 13:38:14 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[02-Jul-2019 13:39:09 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[02-Jul-2019 13:39:09 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[02-Jul-2019 13:40:01 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[02-Jul-2019 13:40:01 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[02-Jul-2019 14:34:09 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[02-Jul-2019 14:34:09 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[02-Jul-2019 14:43:24 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[02-Jul-2019 14:43:24 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[02-Jul-2019 15:11:53 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[02-Jul-2019 15:11:53 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[02-Jul-2019 15:12:55 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[02-Jul-2019 15:12:55 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[02-Jul-2019 15:37:26 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[02-Jul-2019 15:37:26 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[02-Jul-2019 16:04:23 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[02-Jul-2019 16:04:23 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[02-Jul-2019 17:02:07 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[02-Jul-2019 17:02:07 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[02-Jul-2019 17:03:22 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[02-Jul-2019 17:03:22 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[02-Jul-2019 17:57:33 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[02-Jul-2019 17:57:33 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[02-Jul-2019 18:21:24 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[02-Jul-2019 18:21:24 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[02-Jul-2019 19:05:35 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[02-Jul-2019 19:05:35 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[02-Jul-2019 19:06:14 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[02-Jul-2019 19:06:14 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[03-Jul-2019 01:11:56 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[03-Jul-2019 01:11:56 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[03-Jul-2019 01:12:17 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[03-Jul-2019 01:12:17 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[03-Jul-2019 01:12:31 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[03-Jul-2019 01:12:31 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[03-Jul-2019 01:12:59 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[03-Jul-2019 01:12:59 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[03-Jul-2019 09:54:13 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[03-Jul-2019 09:54:13 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[03-Jul-2019 11:40:55 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[03-Jul-2019 11:40:55 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[03-Jul-2019 13:24:04 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[03-Jul-2019 13:24:04 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[03-Jul-2019 13:44:12 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[03-Jul-2019 13:44:12 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[03-Jul-2019 16:58:57 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[03-Jul-2019 16:58:57 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[04-Jul-2019 10:10:48 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[04-Jul-2019 10:10:48 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[04-Jul-2019 10:15:59 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[04-Jul-2019 10:15:59 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[04-Jul-2019 10:29:10 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[04-Jul-2019 10:29:10 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[04-Jul-2019 11:07:09 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[04-Jul-2019 11:07:09 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[04-Jul-2019 11:11:49 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[04-Jul-2019 11:11:49 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[04-Jul-2019 14:08:34 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[04-Jul-2019 14:08:34 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[04-Jul-2019 14:44:48 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[04-Jul-2019 14:44:48 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[04-Jul-2019 14:50:16 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[04-Jul-2019 14:50:16 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[04-Jul-2019 14:56:08 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[04-Jul-2019 14:56:08 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[04-Jul-2019 15:05:23 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[04-Jul-2019 15:05:23 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[04-Jul-2019 15:46:25 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[04-Jul-2019 15:46:25 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[04-Jul-2019 16:21:20 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[04-Jul-2019 16:21:20 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[04-Jul-2019 17:09:58 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[04-Jul-2019 17:09:58 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[04-Jul-2019 17:28:29 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[04-Jul-2019 17:28:29 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[04-Jul-2019 17:29:24 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[04-Jul-2019 17:29:24 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[04-Jul-2019 17:35:05 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[04-Jul-2019 17:35:05 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[04-Jul-2019 17:35:12 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[04-Jul-2019 17:35:12 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[04-Jul-2019 17:36:19 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[04-Jul-2019 17:36:19 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[04-Jul-2019 17:36:30 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[04-Jul-2019 17:36:30 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[04-Jul-2019 18:38:37 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[04-Jul-2019 18:38:37 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[04-Jul-2019 18:38:59 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[04-Jul-2019 18:38:59 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[04-Jul-2019 18:42:17 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[04-Jul-2019 18:42:17 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[05-Jul-2019 00:41:10 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[05-Jul-2019 00:41:10 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[05-Jul-2019 00:42:42 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[05-Jul-2019 00:42:42 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[05-Jul-2019 00:44:23 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[05-Jul-2019 00:44:23 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[05-Jul-2019 00:47:04 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[05-Jul-2019 00:47:04 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[05-Jul-2019 00:50:53 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[05-Jul-2019 00:50:53 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[05-Jul-2019 00:53:34 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[05-Jul-2019 00:53:34 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[05-Jul-2019 00:53:41 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[05-Jul-2019 00:53:41 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[05-Jul-2019 00:53:53 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[05-Jul-2019 00:53:53 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[05-Jul-2019 00:56:08 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[05-Jul-2019 00:56:08 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[05-Jul-2019 00:57:20 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[05-Jul-2019 00:57:20 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[05-Jul-2019 00:58:56 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[05-Jul-2019 00:58:56 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[05-Jul-2019 01:00:04 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[05-Jul-2019 01:00:04 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[05-Jul-2019 01:00:39 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[05-Jul-2019 01:00:39 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[05-Jul-2019 09:31:06 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[05-Jul-2019 09:31:06 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[05-Jul-2019 09:55:32 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[05-Jul-2019 09:55:32 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[05-Jul-2019 09:56:19 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[05-Jul-2019 09:56:19 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[05-Jul-2019 09:58:09 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[05-Jul-2019 09:58:09 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[05-Jul-2019 09:58:17 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[05-Jul-2019 09:58:17 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[05-Jul-2019 09:58:49 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[05-Jul-2019 09:58:49 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[05-Jul-2019 10:01:39 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[05-Jul-2019 10:01:39 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[05-Jul-2019 10:35:56 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[05-Jul-2019 10:35:56 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[05-Jul-2019 11:09:10 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[05-Jul-2019 11:09:10 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[05-Jul-2019 11:09:41 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[05-Jul-2019 11:09:41 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[05-Jul-2019 11:10:05 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[05-Jul-2019 11:10:05 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[05-Jul-2019 11:10:37 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[05-Jul-2019 11:10:37 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[05-Jul-2019 11:11:54 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[05-Jul-2019 11:11:54 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[05-Jul-2019 11:12:19 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[05-Jul-2019 11:12:19 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[05-Jul-2019 11:12:42 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[05-Jul-2019 11:12:42 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[05-Jul-2019 11:12:49 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[05-Jul-2019 11:12:49 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[05-Jul-2019 11:19:04 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[05-Jul-2019 11:19:04 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[05-Jul-2019 11:22:31 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[05-Jul-2019 11:22:31 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[05-Jul-2019 11:27:45 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[05-Jul-2019 11:27:45 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[05-Jul-2019 11:32:34 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[05-Jul-2019 11:32:34 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[05-Jul-2019 11:32:42 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[05-Jul-2019 11:32:42 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[05-Jul-2019 11:53:52 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[05-Jul-2019 11:53:52 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[05-Jul-2019 12:07:07 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[05-Jul-2019 12:07:07 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[05-Jul-2019 13:09:52 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[05-Jul-2019 13:09:52 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[05-Jul-2019 13:35:25 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[05-Jul-2019 13:35:25 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[05-Jul-2019 13:51:07 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[05-Jul-2019 13:51:07 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[05-Jul-2019 15:49:49 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[05-Jul-2019 15:49:49 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[05-Jul-2019 15:51:30 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[05-Jul-2019 15:51:30 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[05-Jul-2019 16:00:16 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[05-Jul-2019 16:00:16 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[05-Jul-2019 16:00:42 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[05-Jul-2019 16:00:42 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[05-Jul-2019 16:07:08 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[05-Jul-2019 16:07:08 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[05-Jul-2019 16:08:10 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[05-Jul-2019 16:08:10 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[05-Jul-2019 16:15:29 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[05-Jul-2019 16:15:29 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[05-Jul-2019 16:24:35 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[05-Jul-2019 16:24:35 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[05-Jul-2019 16:28:51 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[05-Jul-2019 16:28:51 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[05-Jul-2019 16:29:29 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[05-Jul-2019 16:29:29 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[05-Jul-2019 17:21:56 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[05-Jul-2019 17:21:56 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[05-Jul-2019 18:31:09 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[05-Jul-2019 18:31:09 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[05-Jul-2019 22:05:18 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[05-Jul-2019 22:05:18 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[05-Jul-2019 22:06:56 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[05-Jul-2019 22:06:56 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[05-Jul-2019 22:25:55 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[05-Jul-2019 22:25:55 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[05-Jul-2019 22:28:08 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[05-Jul-2019 22:28:08 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[05-Jul-2019 22:29:12 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[05-Jul-2019 22:29:12 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[05-Jul-2019 22:36:41 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[05-Jul-2019 22:36:41 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[05-Jul-2019 22:47:47 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[05-Jul-2019 22:47:47 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[05-Jul-2019 22:54:18 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[05-Jul-2019 22:54:18 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[05-Jul-2019 22:54:51 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[05-Jul-2019 22:54:51 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[05-Jul-2019 22:55:22 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[05-Jul-2019 22:55:22 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[05-Jul-2019 22:57:15 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[05-Jul-2019 22:57:15 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[05-Jul-2019 22:59:07 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[05-Jul-2019 22:59:07 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[05-Jul-2019 23:00:00 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[05-Jul-2019 23:00:00 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[05-Jul-2019 23:07:14 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[05-Jul-2019 23:07:14 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[06-Jul-2019 12:17:19 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[06-Jul-2019 12:17:19 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[06-Jul-2019 13:21:49 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[06-Jul-2019 13:21:49 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[06-Jul-2019 13:36:16 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[06-Jul-2019 13:36:16 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[06-Jul-2019 13:47:40 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[06-Jul-2019 13:47:40 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[06-Jul-2019 13:48:00 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[06-Jul-2019 13:48:00 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[06-Jul-2019 13:59:07 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[06-Jul-2019 13:59:07 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[06-Jul-2019 14:28:25 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[06-Jul-2019 14:28:25 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[06-Jul-2019 15:03:08 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[06-Jul-2019 15:03:08 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[06-Jul-2019 15:11:33 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[06-Jul-2019 15:11:33 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[06-Jul-2019 17:13:14 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[06-Jul-2019 17:13:14 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[06-Jul-2019 17:32:51 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[06-Jul-2019 17:32:51 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[06-Jul-2019 17:46:41 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[06-Jul-2019 17:46:41 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[06-Jul-2019 17:55:57 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[06-Jul-2019 17:55:57 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[06-Jul-2019 17:56:24 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[06-Jul-2019 17:56:24 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[06-Jul-2019 17:59:49 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[06-Jul-2019 17:59:49 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[06-Jul-2019 20:28:42 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[06-Jul-2019 20:28:42 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[06-Jul-2019 20:42:13 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[06-Jul-2019 20:42:13 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[08-Jul-2019 10:19:29 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[08-Jul-2019 10:19:29 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[08-Jul-2019 10:41:12 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[08-Jul-2019 10:41:12 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[08-Jul-2019 11:16:34 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[08-Jul-2019 11:16:34 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[08-Jul-2019 11:33:04 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[08-Jul-2019 11:33:04 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[08-Jul-2019 11:34:24 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[08-Jul-2019 11:34:24 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[08-Jul-2019 11:40:48 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[08-Jul-2019 11:40:48 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[08-Jul-2019 11:42:00 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[08-Jul-2019 11:42:00 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[08-Jul-2019 11:43:21 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[08-Jul-2019 11:43:21 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[08-Jul-2019 11:48:29 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[08-Jul-2019 11:48:29 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[08-Jul-2019 11:49:17 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[08-Jul-2019 11:49:17 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[08-Jul-2019 11:50:15 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[08-Jul-2019 11:50:15 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[08-Jul-2019 11:50:45 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[08-Jul-2019 11:50:45 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[08-Jul-2019 11:51:13 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[08-Jul-2019 11:51:13 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[08-Jul-2019 11:52:14 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[08-Jul-2019 11:52:14 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[08-Jul-2019 12:30:43 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[08-Jul-2019 12:30:43 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[08-Jul-2019 12:33:46 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[08-Jul-2019 12:33:46 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[08-Jul-2019 12:39:15 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[08-Jul-2019 12:39:15 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[08-Jul-2019 12:40:13 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[08-Jul-2019 12:40:13 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[08-Jul-2019 12:41:45 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[08-Jul-2019 12:41:45 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[08-Jul-2019 12:43:12 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[08-Jul-2019 12:43:12 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[08-Jul-2019 12:43:38 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[08-Jul-2019 12:43:38 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[08-Jul-2019 12:43:51 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[08-Jul-2019 12:43:51 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[08-Jul-2019 15:15:30 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[08-Jul-2019 15:15:30 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[08-Jul-2019 15:15:36 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[08-Jul-2019 15:15:36 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[08-Jul-2019 15:15:38 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[08-Jul-2019 15:15:38 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[08-Jul-2019 15:17:30 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[08-Jul-2019 15:17:30 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[08-Jul-2019 15:19:49 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[08-Jul-2019 15:19:49 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[08-Jul-2019 15:21:12 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[08-Jul-2019 15:21:12 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[08-Jul-2019 15:21:19 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[08-Jul-2019 15:21:19 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[08-Jul-2019 15:21:56 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[08-Jul-2019 15:21:56 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[08-Jul-2019 15:22:56 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[08-Jul-2019 15:22:56 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[08-Jul-2019 15:49:43 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[08-Jul-2019 15:49:43 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[08-Jul-2019 15:55:51 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[08-Jul-2019 15:55:51 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[08-Jul-2019 15:59:46 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[08-Jul-2019 15:59:46 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[08-Jul-2019 16:52:23 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[08-Jul-2019 16:52:23 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[08-Jul-2019 18:02:35 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[08-Jul-2019 18:02:35 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[08-Jul-2019 22:50:43 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[08-Jul-2019 22:50:43 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[08-Jul-2019 22:50:53 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[08-Jul-2019 22:50:53 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[08-Jul-2019 22:54:57 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[08-Jul-2019 22:54:57 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[08-Jul-2019 22:55:08 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[08-Jul-2019 22:55:08 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[09-Jul-2019 10:07:46 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[09-Jul-2019 10:07:46 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[09-Jul-2019 10:16:04 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[09-Jul-2019 10:16:04 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[09-Jul-2019 11:13:40 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[09-Jul-2019 11:13:40 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[09-Jul-2019 12:02:52 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[09-Jul-2019 12:02:52 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[09-Jul-2019 12:05:56 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[09-Jul-2019 12:05:56 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
+[09-Jul-2019 12:28:58 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mobiliar/app.antroadomicilio.com/cnx/swgc-mysql.php on line 2
+[09-Jul-2019 12:28:58 America/Bogota] PHP Notice:  Undefined variable: dateArray in /home/mobiliar/app.antroadomicilio.com/inc/inc-cal.php on line 154
