@@ -31,6 +31,8 @@ $errores = array();
 $eventos = array();
 $rentas = array();
 
+$hoy = "'".date('Y-m-d H:i:s')."'";
+
 $data = json_decode( file_get_contents('php://input') );
 
 
@@ -40,7 +42,8 @@ $fhFechaTermino = $data->fhFechaConsulta ? date('Y-m-d',strtotime($data->fhFecha
 
 //consulta eventos
 $select = "SELECT be.*, cc.tNombres nombreCliente, cc.tApellidos apellidosCliente,
-															su.tNombre as promotor, ce.tNombre Estatus, ce.tIcono FROM BitEventos be INNER JOIN CatClientes cc ON cc.eCodCliente = be.eCodCliente
+															su.tNombre as promotor, ce.tNombre Estatus, ce.tIcono, ce.tColor, TIMESTAMPDIFF(HOUR,$hoy,be.fhFechaEvento) Diferencia 
+                                                            FROM BitEventos be INNER JOIN CatClientes cc ON cc.eCodCliente = be.eCodCliente
 															INNER JOIN CatEstatus ce ON ce.eCodEstatus = be.eCodEstatus
 														LEFT JOIN SisUsuarios su ON su.eCodUsuario = be.eCodUsuario
                                                         WHERE
@@ -57,10 +60,15 @@ $select = "SELECT be.*, cc.tNombres nombreCliente, cc.tApellidos apellidosClient
 $rsEventos = mysql_query($select);
 while($rEvento = mysql_fetch_array($rsEventos))
                                                     {
+                                                    
+                                                    $tColor='';
+                                                    if($rEvento{'eCodEstatus'}==1 && $rEvento{'Diferencia'}<=168) { $tColor = 'style="background:#eb8f34;"';}
+                                                    if($rEvento{'eCodEstatus'}==2) { $tColor = 'style="background:'.$rEvento{'tColor'}.';"';}
+                                                    
                                                         $activa = $_SESSION['sessionAdmin'][0]['bAll'] ? '' : 'disabled';
                                                        
                                         $eventos[] = '<div class="col-md-12">
-                                <div class="card border border-primary">
+                                <div class="card border border-primary" '.$tColor.'>
                                     <div class="card-header">
                                         <strong class="card-title">
                                          <i class="'.$rEvento{'tIcono'}.'"></i> '.$rEvento{'nombreCliente'}.' '.$rEvento{'apellidosCliente'}.'
@@ -95,7 +103,8 @@ while($rEvento = mysql_fetch_array($rsEventos))
 
 //consulta rentas
 $select = "SELECT be.*, cc.tNombres nombreCliente, cc.tApellidos apellidosCliente,
-															su.tNombre as promotor, ce.tNombre Estatus, ce.tIcono FROM BitEventos be INNER JOIN CatClientes cc ON cc.eCodCliente = be.eCodCliente
+															su.tNombre as promotor, ce.tNombre Estatus, ce.tIcono , ce.tColor, TIMESTAMPDIFF(HOUR,$hoy,be.fhFechaEvento) Diferencia
+                                                            FROM BitEventos be INNER JOIN CatClientes cc ON cc.eCodCliente = be.eCodCliente
 															INNER JOIN CatEstatus ce ON ce.eCodEstatus = be.eCodEstatus
 														LEFT JOIN SisUsuarios su ON su.eCodUsuario = be.eCodUsuario
                                                         WHERE
@@ -111,9 +120,13 @@ $rsEventos = mysql_query($select);
 while($rEvento = mysql_fetch_array($rsEventos))
                                                     {
                                                         $activa = $_SESSION['sessionAdmin'][0]['bAll'] ? '' : 'disabled';
+                                                        
+                                                        $tColor='';
+                                                    if($rEvento{'eCodEstatus'}==1 && $rEvento{'Diferencia'}<=168) { $tColor = 'style="background:#eb8f34;"';}
+                                                    if($rEvento{'eCodEstatus'}==2) { $tColor = 'style="background:'.$rEvento{'tColor'}.';"';}
                                                        
                                         $rentas[] = '<div class="col-md-12">
-                                <div class="card border border-primary">
+                                <div class="card border border-primary" '.$tColor.'>
                                     <div class="card-header">
                                         <strong class="card-title">
                                          <i class="'.$rEvento{'tIcono'}.'"></i> '.$rEvento{'nombreCliente'}.' '.$rEvento{'apellidosCliente'}.'

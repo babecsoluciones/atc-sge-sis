@@ -92,7 +92,7 @@ $rsClientes = mysql_query($select);
         
            
            <div class="form-group">
-              <label>I.V.A ?<input type="checkbox" class="form-control" name="bIVA" id="bIVA" value="1" <?=$rPublicacion{'bIVA'} ? "checked" : ""?> ></label>
+              <label>I.V.A ?<input type="checkbox" class="form-control" name="bIVA" id="bIVA" value="1" <?=$rPublicacion{'bIVA'} ? "checked" : ""?> onclick="calcular();"></label>
               
            </div>
            <div class="form-group">

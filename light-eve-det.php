@@ -203,14 +203,15 @@ $rsClientes = mysql_query($select);
 												?>
 											<tr class="item">
                 <td>
-                    <b>x<?=$rPublicacion{'eCantidad'}?></b> - <?=utf8_encode($rPublicacion{'tNombre'})?><br><i>
+                    <b></b> - <?=utf8_encode($rPublicacion{'tNombre'})?><br><i>
+                        
                     <?
                         $select = "SELECT ci.tNombre, rsi.ePiezas FROM CatInventario ci INNER JOIN RelServiciosInventario rsi ON rsi.eCodInventario=ci.eCodInventario WHERE rsi.eCodServicio = ".$rPublicacion{'eCodServicio'};
                                                 $rsDetalle = mysql_query($select);
                                                 while($rDetalle = mysql_fetch_array($rsDetalle))
                                                 {
                                                     ?>
-                    x<?=$rDetalle{'ePiezas'}?> - <?=($rDetalle{'tNombre'})?>, 
+                    (<?=$rDetalle{'ePiezas'}?>) <?=($rDetalle{'tNombre'})?>,
                     <?
                                                 }
                     ?></i>
@@ -240,7 +241,7 @@ $rsClientes = mysql_query($select);
 												?>
 											<tr class="item">
                 <td>
-                    <b>x<?=$rPublicacion{'eCantidad'}?></b> - <?=utf8_encode($rPublicacion{'tNombre'})?>
+                    <b></b> - <?=utf8_encode($rPublicacion{'tNombre'})?>
                 </td>
                 
                 <td>

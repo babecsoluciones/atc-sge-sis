@@ -1,4 +1,4 @@
 <?php
-$conexion = mysql_connect("localhost","mobiliar_root","B@surto91");
-mysql_select_db("mobiliar_sge");
+$conexion = mysql_connect("localhost","emicapac_root","B@surto91");
+mysql_select_db("emicapac_sge");
 ?>
