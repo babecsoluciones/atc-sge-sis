@@ -90,7 +90,7 @@ class clSis
                   $tMenu .= '<li class="has-sub">
                             <a class="js-arrow" href="#">
                                 <i class="fa fa-folder"></i>'.$rTipoSeccion{'tNombre'}.'</a>
-                            <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">'
+                            <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">';
 		          while($rMenu = mysql_fetch_array($rsMenus))
 		          {
                       $url = $this->generarUrl($rMenu{'tCodSeccion'});
