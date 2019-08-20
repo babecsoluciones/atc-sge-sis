@@ -61,12 +61,7 @@ class clSis
 	public function generarMenu()
 	{
 		$tMenu = '';
-        $select = "SELECT * FROM CatTiposSecciones ORDER BY ePosicion ASC";
-        $rsTiposSecciones = mysql_query($select);
-        while($rTipoSeccion = mysql_fetch_array($rsTiposSecciones))
-        {
-            /* ****** Cargamos las secciones ******** */
-            $select = "	SELECT DISTINCT
+		$select = "	SELECT DISTINCT
 						ss.tCodSeccion,
 						ss.tTitulo,
 						ss.tIcono,
@@ -77,34 +72,22 @@ class clSis
 					ss.eCodEstatus = 3
 					AND
 					ss.tCodPadre = 'sis-dash-con' ".
-                    " AND ss.tCodTipoSeccion='".$rTipoSeccion{'tCodTipoSeccion'}."' ".
 					($_SESSION['sessionAdmin'][0]['bAll'] ? "" :
 					" AND
 					ssp.eCodPerfil = ".$_SESSION['sessionAdmin'][0]['eCodPerfil']).
                     " ORDER BY ss.ePosicion ASC";
-
-		      $rsMenus = mysql_query($select);
-            
-              if(mysql_num_rows($rsMenus))
-              {
-                  $tMenu .= '<li class="has-sub">
-                            <a class="js-arrow" href="#">
-                                <i class="fa fa-folder"></i>'.$rTipoSeccion{'tNombre'}.'</a>
-                            <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">'
-		          while($rMenu = mysql_fetch_array($rsMenus))
-		          {
-                      $url = $this->generarUrl($rMenu{'tCodSeccion'});
-		          	    $activo = ($_GET['tCodSeccion']==$rMenu{'tCodSeccion'}) ? 'class="active"' : '';
-		          	    $bArchivo = file_exists($rMenu{'tCodSeccion'}.'.php') ? $url : '#';
-		          	    $tMenu .= '<li '.$activo.'>
-                                      <a href="'.$this->url.$bArchivo.'">'.utf8_decode($rMenu{'tTitulo'}).'</a>
-                                  </li>';
-		          }
-                  $tMenu .= '</ul></li>';
-              }
-            /* ****** Cargamos las secciones ******** */
-        }
-		
+//echo $select;
+		$rsMenus = mysql_query($select);
+		while($rMenu = mysql_fetch_array($rsMenus))
+		{
+            $url = $this->generarUrl($rMenu{'tCodSeccion'});
+			$activo = ($_GET['tCodSeccion']==$rMenu{'tCodSeccion'}) ? 'class="active"' : '';
+			$bArchivo = file_exists($rMenu{'tCodSeccion'}.'.php') ? $url : '#';
+			$tMenu .= '<li '.$activo.'>
+                            <a href="'.$this->url.$bArchivo.'">
+                                <i class="fa fa-folder"></i>'.utf8_decode($rMenu{'tTitulo'}).'</a>
+                        </li>';
+		}
 		return $tMenu;
 	}
 	

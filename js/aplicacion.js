@@ -22,7 +22,7 @@ function cerrarSesion()
 {
 	if(confirm("Realmente deseas salir?"))
 		{
-			window.location="logout.php";
+			window.location="/logout/";
 		}
 }
 
