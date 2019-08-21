@@ -25,7 +25,7 @@ fwrite($pf,json_encode($data)."\n\n");
 
 $eCodEvento = $data->eCodEvento ? $data->eCodEvento : false;
         $eCodCliente = $data->eCodCliente ? $data->eCodCliente : "NULL";
-        $eCodUsuario = $_SESSION['sessionAdmin'][0]['eCodUsuario'];
+        $eCodUsuario = $_SESSION['sessionAdmin']['eCodUsuario'];
         $fhFechaEvento = $data->fhFechaEvento ? "'".date('Y-m-d H:i',strtotime($data->fhFechaEvento))."'" : "NULL";
         $tmHoraMontaje = $data->tmHoraMontaje ? "'".$data->tmHoraMontaje."'" : "NULL";
         $tDireccion = $data->tDireccion ? "'".base64_encode($data->tDireccion)."'" : "NULL";

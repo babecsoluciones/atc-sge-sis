@@ -18,7 +18,7 @@ $errores = array();
 $data = json_decode( file_get_contents('php://input') );
 
 $eCodEvento = $data->eCodEventoCarga ? $data->eCodEventoCarga : "NULL";
-$eCodUsuario = $_SESSION['sessionAdmin'][0]['eCodUsuario'];
+$eCodUsuario = $_SESSION['sessionAdmin']['eCodUsuario'];
 $fhFechaCarga = "'".date('Y-m-d H:i:s')."'";
 $eCodCamioneta = $data->eCodCamioneta ? $data->eCodCamioneta : "NULL";
 

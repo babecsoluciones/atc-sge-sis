@@ -50,7 +50,7 @@ $select = "SELECT be.*, cc.tNombres nombreCliente, cc.tApellidos apellidosClient
                                                         be.fhFechaEvento >= '$fhFechaInicio' AND be.fhFechaEvento<='$fhFechaTermino'".
                                                         " AND be.eCodEstatus<>4".
                                                         " AND be.eCodTipoDocumento=1".
-												        ($bAll ? "" : " AND cc.eCodUsuario = ".$_SESSION['sessionAdmin'][0]['eCodUsuario']).
+												        ($bAll ? "" : " AND cc.eCodUsuario = ".$_SESSION['sessionAdmin']['eCodUsuario']).
 														" ORDER BY be.fhFechaEvento DESC";
 
 
@@ -65,7 +65,7 @@ while($rEvento = mysql_fetch_array($rsEventos))
                                                     if($rEvento{'eCodEstatus'}==1 && $rEvento{'Diferencia'}<=168) { $tColor = 'style="background:#eb8f34;"';}
                                                     if($rEvento{'eCodEstatus'}==2) { $tColor = 'style="background:'.$rEvento{'tColor'}.';"';}
                                                     
-                                                        $activa = $_SESSION['sessionAdmin'][0]['bAll'] ? '' : 'disabled';
+                                                        $activa = $_SESSION['sessionAdmin']['bAll'] ? '' : 'disabled';
                                                        
                                         $eventos[] = '<div class="col-md-12">
                                 <div class="card border border-primary" '.$tColor.'>
@@ -111,7 +111,7 @@ $select = "SELECT be.*, cc.tNombres nombreCliente, cc.tApellidos apellidosClient
                                                         be.fhFechaEvento >= '$fhFechaInicio' AND be.fhFechaEvento<='$fhFechaTermino'".
                                                         " AND be.eCodEstatus<>4".
                                                         " AND be.eCodTipoDocumento=2".
-												        ($bAll ? "" : " AND cc.eCodUsuario = ".$_SESSION['sessionAdmin'][0]['eCodUsuario']).
+												        ($bAll ? "" : " AND cc.eCodUsuario = ".$_SESSION['sessionAdmin']['eCodUsuario']).
 														" ORDER BY be.fhFechaEvento DESC";
 
 
@@ -119,7 +119,7 @@ $select = "SELECT be.*, cc.tNombres nombreCliente, cc.tApellidos apellidosClient
 $rsEventos = mysql_query($select);
 while($rEvento = mysql_fetch_array($rsEventos))
                                                     {
-                                                        $activa = $_SESSION['sessionAdmin'][0]['bAll'] ? '' : 'disabled';
+                                                        $activa = $_SESSION['sessionAdmin']['bAll'] ? '' : 'disabled';
                                                         
                                                         $tColor='';
                                                     if($rEvento{'eCodEstatus'}==1 && $rEvento{'Diferencia'}<=168) { $tColor = 'style="background:#eb8f34;"';}

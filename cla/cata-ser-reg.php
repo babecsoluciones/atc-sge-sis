@@ -137,7 +137,7 @@ if(!sizeof($errores))
     $tDescripcion = "Se ha insertado/actualizado el paquete ".sprintf("%07d",$eCodServicio);
     $tDescripcion = "'".$tDescripcion."'";
     $fecha = "'".date('Y-m-d H:i:s')."'";
-    $eCodUsuario = $_SESSION['sessionAdmin'][0]['eCodUsuario'];
+    $eCodUsuario = $_SESSION['sessionAdmin']['eCodUsuario'];
     mysql_query("INSERT INTO SisLogs (eCodUsuario, fhFecha, tDescripcion) VALUES ($eCodUsuario, $fecha, $tDescripcion)");
 }
 

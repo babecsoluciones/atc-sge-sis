@@ -11,10 +11,8 @@ RewriteCond %{REQUEST_FILENAME} !-d
 
 # if not, take the entire URL + query string and append it to index.php.
 
-RewriteRule ^(consultar|sistema|registrar|crear)\/([a-z\-]+)\/([a-z\-]+)\/$ index.php?tAccion=$1&tTipo=$2&tSeccion=$3
-RewriteRule ^(editar|detalles|editar-cotizacion)\/([a-z\-]+)\/([a-z\-]+)\/(.*)\/$ index.php?tAccion=$1&tTipo=$2&tSeccion=$3&val=$4
-RewriteRule ^(generar)\/(xls|pdf)\/([a-z\-]+)\/([a-z\-]+)\/(.*)\/$ generar.php?tFormato=$2&tTipo=$3&tSeccion=$4&val=$5
-RewriteRule ^(exportar)\/(xls|pdf)\/([a-z\-]+)\/([a-z\-]+)\/$ generar.php?tFormato=$2&tTipo=$3&tSeccion=$4
+RewriteRule ^([a-z]{3})\/([a-z\-]+)\/([a-z\-]+)\/(?(?=(v1))((v1)\/([a-z0-9]+)\/)|())$ index.php?tDirectorio=$1&tCodSeccion=$2&v1=$7
+RewriteRule ^(generar|exportar)\/(xls|pdf)\/([a-z\-]+)\/(?(?=(v1))((v1)\/([a-z0-9]+)\/)|()) generar.php?tFormato=$2&tCodSeccion=$3&v1=$7
 RewriteRule ^(notificaciones)\/([\d\-]+)\/$ index.php?tAccion=sistema&tTipo=notificaciones&tSeccion=usuario&fecha=$2
 RewriteRule ^(login|logout)\/$ $1.php
 

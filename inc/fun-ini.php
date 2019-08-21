@@ -1,7 +1,6 @@
 <?php
 include("../cnx/swgc-mysql.php");
 
-session_start();
 
 date_default_timezone_set('America/America/Mexico_City');
 
@@ -20,6 +19,24 @@ date_default_timezone_set('America/America/Mexico_City');
         $tTipo = $base[0];
         $tSeccion = $base[1];
         
+        $select = "SELECT tTitulo, tDirectorio FROM SisSecciones WHERE tCodSeccion = '".$seccion."'";
+        $rAccion = mysql_fetch_array(mysql_query($select));
+        
+        
+        $url = ($rAccion['tDirectorio'] ? $rAccion['tDirectorio'] : $_GET['tDirectorio']).'/'.$seccion.'/'.generarTitulo($seccion).'/'.($codigo ? 'v1/'.$codigo.'/' : '');
+        
+        $servidor = obtenerURL();
+        
+        return ($bServidor ? $servidor : '').$url;
+    }
+
+    function generarTitulo($seccion)
+    {
+        $base = explode('-',$seccion);
+        $tAccion = $base[2];
+        $tTipo = $base[0];
+        $tSeccion = $base[1];
+        
         $select = "SELECT tNombre FROM SisSeccionesReemplazos WHERE tBase = '".$tAccion."'";
         $rAccion = mysql_fetch_array(mysql_query($select));
         
@@ -29,25 +46,8 @@ date_default_timezone_set('America/America/Mexico_City');
         $select = "SELECT tNombre FROM SisSeccionesReemplazos WHERE tBase = '".$tSeccion."'";
         $rSeccion = mysql_fetch_array(mysql_query($select));
         
-        $url = ((!$accion) ? $rAccion{'tNombre'} : $accion ).'/'.$rTipo{'tNombre'}.'/'.$rSeccion{'tNombre'}.'/'.($codigo ? $codigo.'/' : '');
+        $url = $rAccion{'tNombre'}.'-'.$rTipo{'tNombre'}.'-'.$rSeccion{'tNombre'};
         
-        $servidor = obtenerURL();
-        
-        return ($bServidor ? $servidor : '').$url;
-    }
-
-    function obtenerScript()
-    {   
-        $select = "SELECT tBase FROM SisSeccionesReemplazos WHERE tNombre = '".$_GET['tAccion']."'";
-        $rAccion = mysql_fetch_array(mysql_query($select));
-        
-        $select = "SELECT tBase FROM SisSeccionesReemplazos WHERE tNombre = '".$_GET['tTipo']."'";
-        $rTipo = mysql_fetch_array(mysql_query($select));
-        
-        $select = "SELECT tBase FROM SisSeccionesReemplazos WHERE tNombre = '".$_GET['tSeccion']."'";
-        $rSeccion = mysql_fetch_array(mysql_query($select));
-        
-        $url = $rTipo{'tBase'}.'-'.$rSeccion{'tBase'}.'-'.$rAccion{'tBase'};
         
         return $url;
     }
@@ -56,9 +56,9 @@ date_default_timezone_set('America/America/Mexico_City');
 
     function validarEliminacion($seccion)
 	{
-		$bAll = $_SESSION['sessionAdmin'][0]['bAll'];
+		$bAll = $_SESSION['sessionAdmin']['bAll'];
 		$select = 	"SELECT * FROM SisSeccionesPerfiles ".
-					($bAll ? "" : " WHERE eCodPerfil = ".$_SESSION['sessionAdmin'][0]['eCodPerfil']." AND tCodSeccion = '".$seccion."'");
+					($bAll ? "" : " WHERE eCodPerfil = ".$_SESSION['sessionAdmin']['eCodPerfil']." AND tCodSeccion = '".$seccion."'");
 		
 		$rsSeccion = mysql_query($select);
 		$rSeccion = mysql_fetch_array($rsSeccion);
@@ -76,22 +76,21 @@ date_default_timezone_set('America/America/Mexico_City');
 
     function botones($codigo)
     {
-        $tCodSeccion = obtenerScript();
+        $tCodSeccion = $_GET['tCodSeccion'];
         
-        $join = $_SESSION['sessionAdmin'][0]['bAll'] ? 'LEFT ' : 'INNER ';
+        $join = $_SESSION['sessionAdmin']['bAll'] ? 'LEFT ' : 'INNER ';
         
         $select = "SELECT DISTINCT
                         ssb.tCodPadre,ssb.tCodSeccion,ssb.tEtiqueta, sb.*, ssb.tCodBoton boton, ssb.tFuncion funcion 
                     FROM 
                         SisSeccionesBotones ssb 
                     INNER JOIN SisBotones sb on sb.tCodBoton=ssb.tCodBoton 
-                    INNER JOIN SisSeccionesPerfiles ssp ON ssp.tCodSeccion=ssb.tCodPadre 
-                    INNER JOIN SisSeccionesPerfiles sss on sss.tCodSeccion=ssb.tCodSeccion 
+                    $join JOIN SisSeccionesPerfiles ssp ON ssp.tCodSeccion=ssb.tCodPadre 
+                    $join JOIN SisSeccionesPerfiles sss on sss.tCodSeccion=ssb.tCodSeccion 
                     WHERE
                     1=1 ".
-                    ($_SESSION['sessionAdmin'][0]['bAll'] ? "" :" AND sss.eCodPerfil = ".$_SESSION['sessionAdmin'][0]['eCodPerfil']).
-                    " AND ssb.tCodPadre = '".$tCodSeccion."'
-                    ORDER BY ssb.tCodPadre ASC, ssb.ePosicion ASC";
+                    ($_SESSION['sessionAdmin']['bAll'] ? "" :" AND ssp.eCodPerfil = ".$_SESSION['sessionAdmin']['eCodPerfil']).
+                    " AND ssb.tCodPadre = '".$tCodSeccion."'";
         
         //echo $select;
         $rsBotones = mysql_query($select);
@@ -119,11 +118,11 @@ date_default_timezone_set('America/America/Mexico_City');
     {
        
         
-        $tCodSeccion = obtenerScript();
+        $tCodSeccion = $_GET['tCodSeccion'];
         
         $bDelete = validarEliminacion($tCodSeccion);
         
-        $join = $_SESSION['sessionAdmin'][0]['bAll'] ? 'LEFT ' : 'INNER ';
+        $join = $_SESSION['sessionAdmin']['bAll'] ? 'LEFT ' : 'INNER ';
 
         $select = "SELECT DISTINCT
                         ssb.tCodPadre, 
@@ -136,15 +135,13 @@ date_default_timezone_set('America/America/Mexico_City');
                         ssb.ePosicion
                     FROM 
                         SisSeccionesMenusEmergentes ssb 
-                    INNER JOIN SisSeccionesPerfiles ssp ON ssp.tCodSeccion=ssb.tCodPadre 
-                    INNER JOIN SisSeccionesPerfiles sss on sss.tCodSeccion=ssb.tCodSeccion 
+                    $join JOIN SisSeccionesPerfiles ssp ON ssp.tCodSeccion=ssb.tCodPadre 
+                    $join JOIN SisSeccionesPerfiles sss on sss.tCodSeccion=ssb.tCodSeccion 
                     WHERE
                     1=1 ".
-                    ($_SESSION['sessionAdmin'][0]['bAll'] ? "" :" AND sss.eCodPerfil = ".$_SESSION['sessionAdmin'][0]['eCodPerfil']).
+                    ($_SESSION['sessionAdmin']['bAll'] ? "" :" AND ssp.eCodPerfil = ".$_SESSION['sessionAdmin']['eCodPerfil']).
                     " AND ssb.tCodPadre = '".$tCodSeccion."'
                     ORDER BY ssb.tCodPadre ASC, ssb.ePosicion ASC";
-        
-       
         //echo $select;
         ?>
                 <div class="dropdown" style="width:100%;">

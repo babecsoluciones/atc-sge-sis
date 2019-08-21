@@ -28,7 +28,7 @@ $data = json_decode( file_get_contents('php://input') );
         $tTelefonoFijo          = $data->tTelefonoFijo ? "'".$data->tTelefonoFijo."'" : false;
         $tTelefonoMovil         = $data->tTelefonoMovil ? "'".$data->tTelefonoMovil."'" : false;
         $tComentarios           = $data->tComentarios ? "'".$data->tComentarios."'" : "'Sin comentarios'";
-		$eCodUsuario            = $_SESSION['sessionAdmin'][0]['eCodUsuario'];
+		$eCodUsuario            = $_SESSION['sessionAdmin']['eCodUsuario'];
 		$fhFechaCreacion        = "'".date('Y-m-d H:i')."'";
 
         if(!$tNombre)
@@ -107,7 +107,7 @@ if(!sizeof($errores))
     $tDescripcion = "Se ha insertado/actualizado el cliente ".sprintf("%07d",$eCodCliente);
     $tDescripcion = "'".$tDescripcion."'";
     $fecha = "'".date('Y-m-d H:i:s')."'";
-    $eCodUsuario = $_SESSION['sessionAdmin'][0]['eCodUsuario'];
+    $eCodUsuario = $_SESSION['sessionAdmin']['eCodUsuario'];
     mysql_query("INSERT INTO SisLogs (eCodUsuario, fhFecha, tDescripcion) VALUES ($eCodUsuario, $fecha, $tDescripcion)");
 }
 

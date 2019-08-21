@@ -22,7 +22,7 @@ class clSis
 		
 		if($rsUsuario)
 		{
-			$_SESSION['sessionAdmin'] = array($rUsuario);
+			$_SESSION['sessionAdmin'] = $rUsuario;
             $rInicio = mysql_fetch_array(mysql_query("SELECT * FROM SisSeccionesPerfilesInicio WHERE eCodPerfil = ".$rUsuario{'eCodPerfil'}));
             $url = base64_encode($this->generarUrl($rInicio{'tCodSeccion'}));
 			return array('exito'=>1,'seccion'=>$url);
@@ -72,15 +72,15 @@ class clSis
 						ss.tIcono,
                         ss.ePosicion
 					FROM SisSecciones ss".
-					($_SESSION['sessionAdmin'][0]['bAll'] ? "" : " INNER JOIN SisSeccionesPerfiles ssp ON ssp.tCodSeccion = ss.tCodSeccion").
+					($_SESSION['sessionAdmin']['bAll'] ? "" : " INNER JOIN SisSeccionesPerfiles ssp ON ssp.tCodSeccion = ss.tCodSeccion").
 					" WHERE
 					ss.eCodEstatus = 3
 					AND
 					ss.tCodPadre = 'sis-dash-con' ".
                     " AND ss.tCodTipoSeccion='".$rTipoSeccion{'tCodTipoSeccion'}."' ".
-					($_SESSION['sessionAdmin'][0]['bAll'] ? "" :
+					($_SESSION['sessionAdmin']['bAll'] ? "" :
 					" AND
-					ssp.eCodPerfil = ".$_SESSION['sessionAdmin'][0]['eCodPerfil']).
+					ssp.eCodPerfil = ".$_SESSION['sessionAdmin']['eCodPerfil']).
                     " ORDER BY ss.ePosicion ASC";
 
 		      $rsMenus = mysql_query($select);
@@ -111,7 +111,7 @@ class clSis
 	public function validarSeccion($seccion)
 	{
 		$select = 	"SELECT * FROM SisSeccionesPerfiles ".
-					($_SESSION['sessionAdmin'][0]['bAll'] ? "" : " WHERE eCodPerfil = ".$_SESSION['sessionAdmin'][0]['eCodPerfil']." AND tCodSeccion = '".$seccion."'");
+					($_SESSION['sessionAdmin']['bAll'] ? "" : " WHERE eCodPerfil = ".$_SESSION['sessionAdmin']['eCodPerfil']." AND tCodSeccion = '".$seccion."'");
 		
 		$rsSeccion = mysql_query($select);
 		$rSeccion = mysql_fetch_array($rsSeccion);
@@ -121,7 +121,7 @@ class clSis
 	public function validarEnlace($seccion)
 	{
 		$select = 	"SELECT * FROM SisSeccionesPerfiles ".
-					($_SESSION['sessionAdmin'][0]['bAll'] ? "" : " WHERE eCodPerfil = ".$_SESSION['sessionAdmin'][0]['eCodPerfil']." AND tCodSeccion = '".$seccion."'");
+					($_SESSION['sessionAdmin']['bAll'] ? "" : " WHERE eCodPerfil = ".$_SESSION['sessionAdmin']['eCodPerfil']." AND tCodSeccion = '".$seccion."'");
 		
 		$rsSeccion = mysql_query($select);
 		if(mysql_num_rows($rsSeccion)<1)
@@ -202,9 +202,9 @@ class clSis
 	{
         unset($_SESSION['bAll']);
         
-		$bAll = $_SESSION['sessionAdmin'][0]['bAll'];
+		$bAll = $_SESSION['sessionAdmin']['bAll'];
 		$select = 	"SELECT * FROM SisSeccionesPerfiles ".
-					($bAll ? "" : " WHERE eCodPerfil = ".$_SESSION['sessionAdmin'][0]['eCodPerfil']." AND tCodSeccion = '".$seccion."'");
+					($bAll ? "" : " WHERE eCodPerfil = ".$_SESSION['sessionAdmin']['eCodPerfil']." AND tCodSeccion = '".$seccion."'");
 		
 		$rsSeccion = mysql_query($select);
 		$rSeccion = mysql_fetch_array($rsSeccion);
@@ -223,9 +223,9 @@ class clSis
     public function validarEliminacion($seccion)
 	{
         unset($_SESSION['bDelete']);
-		$bAll = $_SESSION['sessionAdmin'][0]['bAll'];
+		$bAll = $_SESSION['sessionAdmin']['bAll'];
 		$select = 	"SELECT * FROM SisSeccionesPerfiles ".
-					($bAll ? "" : " WHERE eCodPerfil = ".$_SESSION['sessionAdmin'][0]['eCodPerfil']." AND tCodSeccion = '".$seccion."'");
+					($bAll ? "" : " WHERE eCodPerfil = ".$_SESSION['sessionAdmin']['eCodPerfil']." AND tCodSeccion = '".$seccion."'");
 		
 		$rsSeccion = mysql_query($select);
 		$rSeccion = mysql_fetch_array($rsSeccion);
@@ -241,300 +241,6 @@ class clSis
         }
 	}
 	
-	//Clientes
-	public function registrarCliente()
-    {   
-        /*Preparacion de variables*/
-        
-        $eCodCliente = $_POST['eCodCliente'] ? $_POST['eCodCliente'] : false;
-        $tNombre = "'".utf8_encode($_POST['tNombre'])."'";
-        $tApellidos = "'".utf8_encode($_POST['tApellidos'])."'";
-        $tCorreo = "'".$_POST['tCorreo']."'";
-        $tTelefonoFijo = "'".$_POST['tTelefonoFijo']."'";
-        $tTelefonoMovil = "'".$_POST['tTelefonoMovil']."'";
-        $tComentarios = $_POST['tComentarios'] ? "'".$_POST['tComentarios']."'" : "Sin comentarios";
-		$eCodUsuario = $_SESSION['sessionAdmin'][0]['eCodUsuario'];
-		$fhFechaCreacion = "'".date('Y-m-d H:i')."'";
-        
-        if(!$eCodCliente)
-        {
-            $insert = " INSERT INTO CatClientes
-            (
-            tNombres,
-            tApellidos,
-            tCorreo,
-            tTelefonoFijo,
-            tTelefonoMovil,
-            eCodUsuario,
-            fhFechaCreacion,
-			eCodEstatus,
-            tComentarios
-			)
-            VALUES
-            (
-            $tNombre,
-            $tApellidos,
-            $tCorreo,
-            $tTelefonoFijo,
-            $tTelefonoMovil,
-            $eCodUsuario,
-            $fhFechaCreacion,
-			3,
-            $tComentarios
-            )";
-        }
-        else
-        {
-            $insert = "UPDATE 
-                            CatClientes
-                        SET
-                            tNombres= $tNombre,
-                            tApellidos= $tApellidos,
-                            tCorreo= $tCorreo,
-                            tTelefonoFijo= $tTelefonoFijo,
-                            tTelefonoMovil= $tTelefonoMovil,
-                            tComentarios = $tComentarios
-                            WHERE
-                            eCodCliente = ".$eCodCliente;
-        }
-        
-        $rsPublicacion = mysql_query($insert);
-        //return $insert;
-		//echo $insert;
-        return $rsPublicacion ? true : false;
-    }
-	
-	//Servicios
-	public function registrarServicio()
-    {   
-        /*Preparacion de variables*/
-        
-        $eCodServicio = $_POST['eCodServicio'] ? $_POST['eCodServicio'] : false;
-        $tNombre = "'".utf8_encode($_POST['tNombre'])."'";
-        $tDescripcion = "'".utf8_encode($_POST['tDescripcion'])."'";
-        $dPrecio = $_POST['dPrecio'];
-        
-        if(!$eCodServicio)
-        {
-            $insert = " INSERT INTO CatServicios
-            (
-            tNombre,
-            tDescripcion,
-            dPrecioVenta
-			)
-            VALUES
-            (
-            $tNombre,
-            $tDescripcion,
-            $dPrecio
-            )";
-        }
-        else
-        {
-            $insert = "UPDATE 
-                            CatServicios
-                        SET
-                            tNombre= $tNombre,
-                            tDescripcion= $tDescripcion,
-                            dPrecioVenta= $dPrecio
-                            WHERE
-                            eCodServicio = ".$eCodServicio;
-        }
-        
-        $rsPublicacion = mysql_query($insert);
-        
-        $select = "SELECT MAX(eCodServicio) eCodServicio FROM CatServicios";
-        $rServicio = mysql_fetch_array(mysql_query($select));
-		
-		$eCodServicio = $eCodServicio ? $eCodServicio : $rServicio{'eCodServicio'};
-		
-		mysql_query("DELETE FROM RelServiciosInventario WHERE eCodServicio = $eCodServicio");
-	foreach($_POST['eCodInventario'] as $key => $eCodInventario)
-	{
-		$ePiezas = $_POST['ePiezas'.$key];
-		mysql_query("INSERT INTO RelServiciosInventario (eCodServicio, eCodInventario, ePiezas) VALUES ($eCodServicio, $eCodInventario, $ePiezas)");
-	}
-		
-        //return $insert;
-		//echo $insert;
-        return $rsPublicacion ? true : false;
-    }
-	
-	//Inventario
-	public function registrarInventario()
-    {   
-        /*Preparacion de variables*/
-        
-        $eCodInventario = $_POST['eCodInventario'] ? $_POST['eCodInventario'] : false;
-		$eCodTipoInventario = $_POST['eCodTipoInventario'];
-        $tNombre = "'".$_POST['tNombre']."'";
-        $tMarca = "'".$_POST['tMarca']."'";
-        $tDescripcion = "'".$_POST['tDescripcion']."'";
-        $dPrecioInterno = $_POST['dPrecioInterno'];
-        $dPrecioVenta = $_POST['dPrecioVenta'];
-        $ePiezas = $_POST['ePiezas'];
-        $tImagen = "'".$this->base64toImage(base64_encode($_POST['tImagen']))."'";
-        
-        if(!$eCodInventario)
-        {
-            $insert = " INSERT INTO CatInventario
-            (
-			eCodTipoInventario,
-            tNombre,
-            tMarca,
-            tDescripcion,
-            dPrecioVenta,
-			dPrecioInterno,
-			tImagen,
-			ePiezas
-			)
-            VALUES
-            (
-            $eCodTipoInventario,
-            $tNombre,
-            $tMarca,
-            $tDescripcion,
-            $dPrecioVenta,
-			$dPrecioInterno,
-			$tImagen,
-			$ePiezas
-            )";
-        }
-        else
-        {
-            $insert = "UPDATE 
-                            CatInventario
-                        SET
-                            eCodTipoInventario=$eCodTipoInventario,
-            				tNombre=$tNombre,
-            				tMarca=$tMarca,
-            				tDescripcion=$tDescripcion,
-            				dPrecioVenta=$dPrecioVenta,
-							dPrecioInterno=$dPrecioInterno,
-							tImagen=$tImagen,
-							ePiezas=$ePiezas
-                            WHERE
-                            eCodInventario = ".$eCodInventario;
-        }
-        
-        $rsPublicacion = mysql_query($insert);
-        //return $insert;
-		//echo $insert;
-        return $rsPublicacion ? true : false;
-    }
-    
-    //Eventos
-    public function registrarEvento()
-    {
-        $eCodEvento = $_POST['eCodEvento'] ? $_POST['eCodEvento'] : false;
-        $eCodCliente = $_POST['eCodCliente'] ? $_POST['eCodCliente'] : "NULL";
-        $eCodUsuario = $_SESSION['sessionAdmin'][0]['eCodUsuario'];
-        $fhFechaEvento = $_POST['fhFechaEvento'] ? "'".date('Y-m-d H:i',strtotime($_POST['fhFechaEvento']))."'" : "NULL";
-        $tmHoraMontaje = $_POST['tmHoraMontaje'] ? "'".$_POST['tmHoraMontaje']."'" : "NULL";
-        $tDireccion = $_POST['tDireccion'] ? "'".base64_encode($_POST['tDireccion'])."'" : "NULL";
-        $tObservaciones = $_POST['tObservaciones'] ? "'".base64_encode($_POST['tObservaciones'])."'" : "NULL";
-        $eCodEstatus = 1;
-        $eCodTipoDocumento = $_POST['eCodTipoDocumento'] ? $_POST['eCodTipoDocumento'] : 1;
-        $bIVA = $_POST['bIVA'] ? $_POST['bIVA'] : "NULL";
-        
-        $fhFecha = "'".date('Y-m-d H:i:s')."'";
-        
-        if(!$eCodEvento)
-        {
-            $query = "INSERT INTO BitEventos (
-                            eCodUsuario,
-							eCodEstatus,
-                            eCodCliente,
-                            fhFechaEvento,
-                            tmHoraMontaje,
-                            tDireccion,
-                            tObservaciones,
-                            eCodTipoDocumento,
-                            bIVA,
-                            fhFecha)
-                            VALUES
-                            (
-                            $eCodUsuario,
-							$eCodEstatus,
-                            $eCodCliente,
-                            $fhFechaEvento,
-                            $tmHoraMontaje,
-                            $tDireccion,
-                            $tObservaciones,
-                            $eCodTipoDocumento,
-                            $bIVA,
-                            $fhFecha)";
-            
-           
-            
-            
-            
-            $rsEvento = mysql_query($query);
-            if($rsEvento)
-            {
-                $buscar = mysql_fetch_array(mysql_query("SELECT MAX(eCodEvento) as eCodEvento FROM BitEventos WHERE eCodCliente = $eCodCliente AND eCodUsuario = $eCodUsuario ORDER BY eCodEvento DESC"));
-                $eCodEvento = $buscar['eCodEvento'];
-                
-                foreach($_POST as $tCampo => $tValor)
-                {
-                    $indice=str_replace("eCodServicio","",$tCampo);
-                    $eCodServicio = $_POST['eCodServicio'.$indice];
-                    $eCantidad = $_POST['eCantidad'.$indice];
-                    $eCodTipo = $_POST['eCodTipo'.$indice];
-                    $dMonto = $_POST['dMonto'.$indice] ? $_POST['dMonto'.$indice] : ($_POST['totalServ'.$indice]? $_POST['totalServ'.$indice]:0);
-                    $insert = "INSERT INTO RelEventosPaquetes (eCodEvento, eCodServicio, eCantidad,eCodTipo,dMonto) VALUES ($eCodEvento, $eCodServicio, $eCantidad, $eCodTipo, $dMonto)";
-                    mysql_query($insert);
-                    
-                }
-                
-                $tDescripcion = "Se ha registrado el evento ".sprintf("%07d",$eCodEvento);
-                $tDescripcion = "'".$tDescripcion."'";
-                mysql_query("INSERT INTO SisLogs (eCodUsuario, fhFecha, tDescripcion) VALUES ($eCodUsuario, $fhFecha, $tDescripcion)");
-                
-                return true;
-            }
-            else
-            {
-                return false;
-            }
-        }
-        else
-        {
-            $query = "UPDATE BitEventos SET
-                            fhFechaEvento = $fhFechaEvento,
-                            tmHoraMontaje = $tmHoraMontaje,
-                            tDireccion = $tDireccion,
-                            tObservaciones = $tObservaciones,
-                            bIVA = $bIVA
-                            WHERE eCodEvento = $eCodEvento";
-            $rsEvento = mysql_query($query);
-            if($rsEvento)
-            {
-                mysql_query("DELETE FROM RelEventosPaquetes WHERE eCodEvento = $eCodEvento");
-                foreach($_POST as $tCampo => $tValor)
-                {
-                    $indice=str_replace("eCodServicio","",$tCampo);
-                    $eCodServicio = $_POST['eCodServicio'.$indice];
-                    $eCantidad = $_POST['eCantidad'.$indice];
-                    $eCodTipo = $_POST['eCodTipo'.$indice];
-                    $dMonto = $_POST['dMonto'.$indice] ? $_POST['dMonto'.$indice] : ($_POST['totalServ'.$indice]? $_POST['totalServ'.$indice]:0);
-                    $insert = "INSERT INTO RelEventosPaquetes (eCodEvento, eCodServicio, eCantidad,eCodTipo,dMonto) VALUES ($eCodEvento, $eCodServicio, $eCantidad, $eCodTipo, $dMonto)";
-                    mysql_query($insert);
-                    
-                }
-                $tDescripcion = "Se ha modificado el evento ".sprintf("%07d",$eCodEvento);
-                $tDescripcion = "'".$tDescripcion."'";
-                mysql_query("INSERT INTO SisLogs (eCodUsuario, fhFecha, tDescripcion) VALUES ($eCodUsuario, $fhFecha, $tDescripcion)");
-                return true;
-            }
-            else
-            {
-                return false;
-            }
-        }
-       
-    }
-    
     private function base64toImage($data)
     {
         $fname = "inv/".uniqid().'.jpg';
@@ -570,9 +276,22 @@ class clSis
         $select = "SELECT tNombre FROM SisSeccionesReemplazos WHERE tBase = '".$tSeccion."'";
         $rSeccion = mysql_fetch_array(mysql_query($select));
         
-        $url = $rAccion{'tNombre'}.'/'.$rTipo{'tNombre'}.'/'.$rSeccion{'tNombre'}.'/';
+        $select = "SELECT * FROM SisSecciones WHERE tCodSeccion = '$seccion'";
+        $rsSeccion = mysql_query($select);
+        $rSeccion 0 mysql_fetch_array($rsSeccion);
+        
+        $url = $rSeccion{'tDirectorio'}.'/'.$seccion.'/'.$rAccion{'tNombre'}.'-'.$rTipo{'tNombre'}.'-'.$rSeccion{'tNombre'}.'/';
         
         return $url;
+    }
+    
+    public function seccionPadre($seccion)
+    {
+        $select = "SELECT tCodPadre FROM SisSecciones WHERE tCodSeccion = '$seccion'";
+        $rsSeccion = mysql_query($select);
+        $rSeccion = mysql_fetch_array($rsSeccion);
+        
+        return generarURL($rSeccion{'tCodPadre'});
     }
 }
 

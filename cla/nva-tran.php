@@ -25,7 +25,7 @@ $eCodEvento = $data->eCodEventoTransaccion;
     $dMonto = $data->dMonto;
     $fhFecha = "'".date('Y-m-d H:i:s')."'";
     $eCodTipoPago = $data->eCodTipoPago;
-    $eCodUsuario = $_SESSION['sessionAdmin'][0]['eCodUsuario'];
+    $eCodUsuario = $_SESSION['sessionAdmin']['eCodUsuario'];
     
         $insert = "INSERT INTO BitTransacciones (eCodUsuario,eCodEvento,fhFecha,dMonto,eCodTipoPago) VALUES ($eCodUsuario,$eCodEvento,$fhFecha,$dMonto,$eCodTipoPago)";
     mysql_query($insert);

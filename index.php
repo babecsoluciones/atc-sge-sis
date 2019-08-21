@@ -154,10 +154,10 @@ if(!$_SESSION['sessionAdmin'] || (!$_GET['tAccion'] && !$_GET['tTipo'] && !$_GET
                                 <div class="account-wrap">
                                     <div class="account-item clearfix js-item-menu">
                                         <div class="image">
-                                            <img src="/images/icon/logo.png" alt="<?=$_SESSION['sessionAdmin'][0]['tNombre']?>" width="100" height="100"/>
+                                            <img src="/images/icon/logo.png" alt="<?=$_SESSION['sessionAdmin']['tNombre']?>" width="100" height="100"/>
                                         </div>
                                         <div class="content">
-                                            <a class="js-acc-btn" href="#"><?=$_SESSION['sessionAdmin'][0]['tNombre']?></a>
+                                            <a class="js-acc-btn" href="#"><?=$_SESSION['sessionAdmin']['tNombre']?></a>
                                         </div>
                                         <div class="account-dropdown js-dropdown">
                                             <div class="info clearfix">
@@ -168,9 +168,9 @@ if(!$_SESSION['sessionAdmin'] || (!$_GET['tAccion'] && !$_GET['tTipo'] && !$_GET
                                                 </div>
                                                 <div class="content">
                                                     <h5 class="name">
-                                                        <a href="#"><?=$_SESSION['sessionAdmin'][0]['tNombre']?></a>
+                                                        <a href="#"><?=$_SESSION['sessionAdmin']['tNombre']?></a>
                                                     </h5>
-                                                    <span class="email"><?=$_SESSION['sessionAdmin'][0]['tCorreo']?></span>
+                                                    <span class="email"><?=$_SESSION['sessionAdmin']['tCorreo']?></span>
                                                 </div>
                                             </div>
                                            
@@ -194,9 +194,9 @@ if(!$_SESSION['sessionAdmin'] || (!$_GET['tAccion'] && !$_GET['tTipo'] && !$_GET
                     
             <div class="row">
                 <div class="col-lg-12">
-                    <input type="hidden" id="tPasswordVerificador"  style="display:none;" value="<?=base64_decode($_SESSION['sessionAdmin'][0]['tPasswordOperaciones'])?>">
+                    <input type="hidden" id="tPasswordVerificador"  style="display:none;" value="<?=base64_decode($_SESSION['sessionAdmin']['tPasswordOperaciones'])?>">
                     <!--botones-->
-                    <? botones(($_GET['val']) ? $_GET['val'] : false); ?>
+                    <? botones(($_GET['v1']) ? $_GET['v1'] : false); ?>
                     <!--botones-->
                     <img id="imgProceso" src="/res/loading.gif" style="max-height:30px; display:none">
                 </div>
@@ -210,7 +210,7 @@ if(!$_SESSION['sessionAdmin'] || (!$_GET['tAccion'] && !$_GET['tTipo'] && !$_GET
     $dMonto = $_POST['dMonto'];
     $fhFecha = "'".date('Y-m-d H:i:s')."'";
     $eCodTipoPago = $_POST['eCodTipoPago'];
-    $eCodUsuario = $_SESSION['sessionAdmin'][0]['eCodUsuario'];
+    $eCodUsuario = $_SESSION['sessionAdmin']['eCodUsuario'];
     
         $insert = "INSERT INTO BitTransacciones (eCodUsuario,eCodEvento,fhFecha,dMonto,eCodTipoPago) VALUES ($eCodUsuario,$eCodEvento,$fhFecha,$dMonto,$eCodTipoPago)";
     mysql_query($insert);
@@ -442,8 +442,8 @@ setTimeout(function(){
               <label>Veh&iacute;culo</label>
          <select class="form-control" id="eCodCamioneta" name="eCodCamioneta" onchange="validarCarga()">
               <option value="">Seleccione...</option>
-             <? $select = "SELECT * FROM CatCamionetas WHERE tCodEstatus = 'AC' ORDER BY eCodCamioneta ASC";
-                echo $select;
+             <?php 
+                $select = "SELECT * FROM CatCamionetas WHERE tCodEstatus = 'AC' ORDER BY eCodCamioneta ASC";
                 $rsCamionetas = mysql_query($select);
                 while($rCamioneta = mysql_fetch_array($rsCamionetas)) { ?>
              <option value="<?=$rCamioneta{'eCodCamioneta'};?>"><?=$rCamioneta{'tNombre'};?></option>
@@ -544,7 +544,7 @@ setTimeout(function(){
                      
                       $('#resExito').modal('show');
                       setTimeout(function(){ $('#resExito').modal('hide'); }, 3000);
-                      setTimeout(function(){ window.location="<?=$_SERVER['HTTP_REFERER'] ? $_SERVER['HTTP_REFERER'] : generarUrl(str_replace('reg','con',$seccion))?>"; }, 3500);
+                      setTimeout(function(){ window.location="<?=(($_SERVER['HTTP_REFERER']) ? $_SERVER['HTTP_REFERER'] : $clSistema->seccionPadre($_GET['tCodSeccion']) );?>"; }, 3500);
                   }
                   else
                       {

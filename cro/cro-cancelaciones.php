@@ -3,9 +3,9 @@ require("../cnx/swgc-mysql.php");
 
 date_default_timezone_set('America/Mexico_City');
 
-$hoy = "'".date('Y-m-d H:i:s')."'";
+$hoy = "'".date('Y-m-d')."'";
 
-$select = "SELECT eCodEvento, TIMESTAMPDIFF(HOUR,$hoy,fhFechaEvento) Diferencia FROM BitEventos WHERE fhFechaEvento > $hoy and eCodEstatus=1";
+$select = "SELECT eCodEvento, TIMESTAMPDIFF(HOUR,$hoy,fhFechaEvento) Diferencia FROM BitEventos WHERE fhFechaEvento > $hoy and eCodEstatus=1 and fhfecha < $hoy";
 
 echo $select.'<br><br>';
 

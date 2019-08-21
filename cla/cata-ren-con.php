@@ -46,7 +46,7 @@ if(!sizeof($errores))
     $tDescripcion = "Se ha ".(($accion=="D") ? 'Eliminado' : 'Finalizado')." la renta código ".sprintf("%07d",$codigo);
     $tDescripcion = "'".utf8_encode($tDescripcion)."'";
     $fecha = "'".date('Y-m-d H:i:s')."'";
-    $eCodUsuario = $_SESSION['sessionAdmin'][0]['eCodUsuario'];
+    $eCodUsuario = $_SESSION['sessionAdmin']['eCodUsuario'];
     mysql_query("INSERT INTO SisLogs (eCodUsuario, fhFecha, tDescripcion) VALUES ($eCodUsuario, $fecha, $tDescripcion)");
 }
 

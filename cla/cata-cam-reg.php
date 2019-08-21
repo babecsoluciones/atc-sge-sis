@@ -25,7 +25,7 @@ $data = json_decode( file_get_contents('php://input') );
         $tNombre                = $data->tNombre ? "'".utf8_encode($data->tNombre)."'" : ($data->tApellidos ? "'".utf8_encode($data->tApellidos)."'" : false);
         $tCodEstatus             = $data->tCodEstatus ? "'".utf8_encode($data->tCodEstatus)."'" : false;
         
-		$eCodUsuario            = $_SESSION['sessionAdmin'][0]['eCodUsuario'];
+		$eCodUsuario            = $_SESSION['sessionAdmin']['eCodUsuario'];
 		
 
     if(!$eCodCamioneta)
@@ -72,7 +72,7 @@ if(!sizeof($errores))
     $tDescripcion = "Se ha insertado/actualizado el vehiculo ".sprintf("%07d",$eCodCamioneta);
     $tDescripcion = "'".$tDescripcion."'";
     $fecha = "'".date('Y-m-d H:i:s')."'";
-    $eCodUsuario = $_SESSION['sessionAdmin'][0]['eCodUsuario'];
+    $eCodUsuario = $_SESSION['sessionAdmin']['eCodUsuario'];
     mysql_query("INSERT INTO SisLogs (eCodUsuario, fhFecha, tDescripcion) VALUES ($eCodUsuario, $fecha, $tDescripcion)");
 }
 
