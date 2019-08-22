@@ -155,10 +155,10 @@ $rsClientes = mysql_query($select);
 											{
 												?>
 											<tr>
-												<td><?=($rPublicacion{'tNombre'})?></td>
-												<td class="text-right" align="right"> 
+												<td width="60%"><?=($rPublicacion{'tNombre'})?></td>
+												<td class="text-right" align="right" width="25%"> 
                                                    <input type="text" class="form-control" name="eCantidad<?=$b?>" id="eCantidad<?=$b?>" placeholder="10">
-                                                </td><td>
+                                                </td><td width="15%">
                                                     <input type="hidden" id="eCodServicio<?=$b?>" name="eCodServicio<?=$b?>" value="<?=$rPublicacion{'eCodServicio'}?>">
                                                     <input type="hidden" id="tPaquete<?=$b?>" name="tPaquete<?=$b?>" value="<?=($rPublicacion{'tNombre'})?>">
                                                     <input type="hidden" id="dPrecioVenta<?=$b?>" name="dPrecioVenta<?=$b?>" value="<?=$rPublicacion{'dPrecioVenta'}?>">
@@ -200,10 +200,10 @@ $rsClientes = mysql_query($select);
 											{
 												?>
 											<tr>
-												<td><?=($rPublicacion{'tNombre'})?></td>
-												<td class="text-right" align="right"> 
+												<td width="60%"><?=($rPublicacion{'tNombre'})?></td>
+												<td class="text-right" align="right" width="25%"> 
 													<input type="text" class="form-control" name="eCantidad<?=$b?>" id="eCantidad<?=$b?>" placeholder="10">
-                                                </td><td>
+                                                </td><td width="15%">
                                                     <input type="hidden" id="eCodServicio<?=$b?>" name="eCodServicio<?=$b?>" value="<?=$rPublicacion{'eCodInventario'}?>">
                                                     <input type="hidden" id="tPaquete<?=$b?>" name="tPaquete<?=$b?>" value="<?=$rPublicacion{'tNombre'}?>">
                                                     <input type="hidden" id="dPrecioVenta<?=$b?>" name="dPrecioVenta<?=$b?>" value="<?=$rPublicacion{'dPrecioVenta'}?>">

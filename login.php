@@ -56,13 +56,13 @@ if($_POST)
 {
 	$res = $clSistema->iniciarSesion();
 	if($res['exito']==1 && $_SESSION['sessionAdmin']['eCodUsuario']>0)
-	{ ?>
+	{  ?>
        <div class="alert alert-success" role="alert">
                 Inicio de Sesi&oacute;n Correcto. Redirigiendo...
             </div>                  
       <script>
 setTimeout(function(){
-    window.location="/<?=base64_decode($res['seccion'])?>";
+    window.location="/<?=base64_decode($res['seccion']);?>";
 },2500);
 </script>
 	<? }

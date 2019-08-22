@@ -19,9 +19,7 @@ $errores = array();
 
 $data = json_decode( file_get_contents('php://input') );
 
-$pf = fopen("logPaquetes.txt","w");
-fwrite($pf,json_encode($data));
-fclose($pf);
+
 
 /*Preparacion de variables*/
         
@@ -29,6 +27,7 @@ fclose($pf);
         $tNombre = "'".utf8_encode($data->tNombre)."'";
         $tDescripcion = "'".utf8_encode($data->tDescripcion)."'";
         $dPrecio = $data->dPrecio;
+        $dHoraExtra = $data->dHoraExtra ? $data->dHoraExtra : "NULL";
 
 if(!trim($data->tNombre))
 {
@@ -66,13 +65,15 @@ if(!sizeof($errores))
             (
             tNombre,
             tDescripcion,
-            dPrecioVenta
+            dPrecioVenta,
+            dHoraExtra
 			)
             VALUES
             (
             $tNombre,
             $tDescripcion,
-            $dPrecio
+            $dPrecio,
+            $dHoraExtra
             )";
         }
         else
@@ -82,13 +83,14 @@ if(!sizeof($errores))
                         SET
                             tNombre= $tNombre,
                             tDescripcion= $tDescripcion,
-                            dPrecioVenta= $dPrecio
+                            dPrecioVenta= $dPrecio,
+                            dHoraExtra = $dHoraExtra
                             WHERE
                             eCodServicio = ".$eCodServicio;
         }
     
     
-    fwrite($pf,$insert."\n\n");
+    
         
         $rs = mysql_query($insert);
 

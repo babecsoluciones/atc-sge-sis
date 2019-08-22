@@ -11,19 +11,19 @@ include("./inc/fun-ini.php");
 $clSistema = new clSis();
 session_start();
 
-$bAll = $clSistema->validarPermiso(obtenerScript());
-$bDelete = $clSistema->validarEliminacion(obtenerScript());
+$bAll = $clSistema->validarPermiso($_GET['tCodSeccion']);
+$bDelete = $clSistema->validarEliminacion($_GET['tCodSeccion']);
 
 
 date_default_timezone_set('America/Mexico_City');
 
-if(!$_SESSION['sessionAdmin'] || (!$_GET['tAccion'] && !$_GET['tTipo'] && !$_GET['tSeccion']))
+if(!$_SESSION['sessionAdmin'] || !$_GET['tCodSeccion'])
 {
 	echo '<script>window.location="'.obtenerURL().'login/";</script>';
 }
 
 
-
+//echo $_GET['tCodSeccion'];
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -97,7 +97,7 @@ if(!$_SESSION['sessionAdmin'] || (!$_GET['tAccion'] && !$_GET['tTipo'] && !$_GET
                 <div class="container-fluid">
                     <ul class="navbar-mobile__list list-unstyled">
                         <li class="active">
-                            <a class="js-arrow" href="/consultar/sistema/dashboard/">
+                            <a class="js-arrow" href="/das/sis-dash-con/consultar-sistema-dashboard/">
                                 <i class="fas fa-tachometer-alt"></i>Dashboard</a>
                         </li>
 						<?
@@ -121,7 +121,7 @@ if(!$_SESSION['sessionAdmin'] || (!$_GET['tAccion'] && !$_GET['tTipo'] && !$_GET
                 <nav class="navbar-sidebar">
                     <ul class="list-unstyled navbar__list">
                         <li <?=$_GET['tCodSeccion']=='inicio' ? 'class="active"' : '' ?>>
-                            <a class="js-arrow" href="/consultar/sistema/dashboard/">
+                            <a class="js-arrow" href="/das/sis-dash-con/consultar-sistema-dashboard/">
                                 <i class="fas fa-tachometer-alt"></i>Dashboard</a>
                         </li>
 						<?
@@ -533,7 +533,7 @@ setTimeout(function(){
           setTimeout(function(){ 
             $.ajax({
               type: "POST",
-              url: "<?=obtenerURL();?>cla/<?=$seccion;?>.php",
+              url: "<?=obtenerURL();?>cla/<?=$_GET['tCodSeccion'];?>.php",
               data: cadena,
               contentType: "application/json; charset=utf-8",
               dataType: "json",
@@ -612,7 +612,7 @@ setTimeout(function(){
           setTimeout(function(){
           $.ajax({
               type: "POST",
-              url: "<?=obtenerURL();?>cla/<?=$seccion;?>.php",
+              url: "<?=obtenerURL();?>cla/<?=$_GET['tCodSeccion'];?>.php",
               data: jsonString,
               contentType: "application/json; charset=utf-8",
               dataType: "json",
@@ -797,7 +797,7 @@ setTimeout(function(){
           
           $.ajax({
               type: "POST",
-              url: "<?=obtenerURL();?>cla/<?=$seccion;?>.php",
+              url: "<?=obtenerURL();?>cla/<?=$_GET['tCodSeccion'];?>.php",
               data: jsonString,
               contentType: "application/json; charset=utf-8",
               dataType: "json",

@@ -1,5 +1,5 @@
 <?php
-include("../cnx/swgc-mysql.php");
+include("cnx/swgc-mysql.php");
 session_start();
 date_default_timezone_set('America/America/Mexico_City');
 
@@ -25,6 +25,11 @@ class clSis
 			$_SESSION['sessionAdmin'] = $rUsuario;
             $rInicio = mysql_fetch_array(mysql_query("SELECT * FROM SisSeccionesPerfilesInicio WHERE eCodPerfil = ".$rUsuario{'eCodPerfil'}));
             $url = base64_encode($this->generarUrl($rInicio{'tCodSeccion'}));
+            
+            $pf = fopen("inicio.txt","a");
+            fwrite($pf,base64_decode($url));
+            fclose($pf);
+            
 			return array('exito'=>1,'seccion'=>$url);
 		}
 		else
@@ -35,26 +40,16 @@ class clSis
 	
 	public function cargarSeccion($seccion)
 	{
-		//$res->validarSeccion($seccion);
-		//$res = $this->validarSeccion($seccion);
+		//$res->validarSeccion($_GET['tCodSeccion']);
+		//$res = $this->validarSeccion($_GET['tCodSeccion']);
         
         //generar url de archivo
         
-        $select = "SELECT tBase FROM SisSeccionesReemplazos WHERE tNombre = '".$_GET['tAccion']."'";
-        $rAccion = mysql_fetch_array(mysql_query($select));
-        
-        $select = "SELECT tBase FROM SisSeccionesReemplazos WHERE tNombre = '".$_GET['tTipo']."'";
-        $rTipo = mysql_fetch_array(mysql_query($select));
-        
-        $select = "SELECT tBase FROM SisSeccionesReemplazos WHERE tNombre = '".$_GET['tSeccion']."'";
-        $rSeccion = mysql_fetch_array(mysql_query($select));
-        
-        $seccion = $rTipo{'tBase'}.'-'.$rSeccion{'tBase'}.'-'.$rAccion{'tBase'};
-        
         //incluimos
-			$fichero = $seccion.'.php';
+			$fichero = 'mod/'.$_GET['tDirectorio'].'/'.$_GET['tCodSeccion'].'.php';
 			//echo ($fichero);
 			return include($fichero);
+			
 
 	}
 	
@@ -74,9 +69,8 @@ class clSis
 					FROM SisSecciones ss".
 					($_SESSION['sessionAdmin']['bAll'] ? "" : " INNER JOIN SisSeccionesPerfiles ssp ON ssp.tCodSeccion = ss.tCodSeccion").
 					" WHERE
-					ss.eCodEstatus = 3
-					AND
-					ss.tCodPadre = 'sis-dash-con' ".
+					ss.eCodEstatus = 3 ".
+					//" AND ss.tCodPadre = 'sis-dash-con' ".
                     " AND ss.tCodTipoSeccion='".$rTipoSeccion{'tCodTipoSeccion'}."' ".
 					($_SESSION['sessionAdmin']['bAll'] ? "" :
 					" AND
@@ -85,7 +79,15 @@ class clSis
 
 		      $rsMenus = mysql_query($select);
             
-              if(mysql_num_rows($rsMenus))
+              if(!mysql_num_rows($rsMenus))
+              {
+                  
+                  $tMenu .= '<li '.$activo.'>
+                                      <a href="'.$this->url.$bArchivo.'"><i class="fas fa-tachometer-alt"></i>'.utf8_decode($rMenu{'tTitulo'}).'</a>
+                                  </li>';
+                  
+              }
+                else
               {
                   $tMenu .= '<li class="has-sub">
                             <a class="js-arrow" href="#">
@@ -95,7 +97,7 @@ class clSis
 		          {
                       $url = $this->generarUrl($rMenu{'tCodSeccion'});
 		          	    $activo = ($_GET['tCodSeccion']==$rMenu{'tCodSeccion'}) ? 'class="active"' : '';
-		          	    $bArchivo = file_exists($rMenu{'tCodSeccion'}.'.php') ? $url : '#';
+		          	    $bArchivo = $url;
 		          	    $tMenu .= '<li '.$activo.'>
                                       <a href="'.$this->url.$bArchivo.'">'.utf8_decode($rMenu{'tTitulo'}).'</a>
                                   </li>';
@@ -277,10 +279,10 @@ class clSis
         $rSeccion = mysql_fetch_array(mysql_query($select));
         
         $select = "SELECT * FROM SisSecciones WHERE tCodSeccion = '$seccion'";
-        $rsSeccion = mysql_query($select);
-        $rSeccion 0 mysql_fetch_array($rsSeccion);
+        $rsUrlSeccion = mysql_query($select);
+        $rUrlSeccion = mysql_fetch_array($rsUrlSeccion);
         
-        $url = $rSeccion{'tDirectorio'}.'/'.$seccion.'/'.$rAccion{'tNombre'}.'-'.$rTipo{'tNombre'}.'-'.$rSeccion{'tNombre'}.'/';
+        $url = $rUrlSeccion{'tDirectorio'}.'/'.$seccion.'/'.$rAccion{'tNombre'}.'-'.$rTipo{'tNombre'}.'-'.$rSeccion{'tNombre'}.'/';
         
         return $url;
     }

@@ -4,11 +4,12 @@ require_once("../../cls/cls-sistema.php");
 $clSistema = new clSis();
 session_start();
 
-$select = "SELECT be.*, (cc.tNombres + ' ' + cc.tApellidos) as tNombre FROM BitEventos be INNER JOIN CatClientes cc ON cc.eCodCliente = be.eCodCliente WHERE be.eCodEvento = ".$_GET['v1'];
-$rsPublicacion = mysql_query($select);
-$rPublicacion = mysql_fetch_array($rsPublicacion);
+$select = "SELECT be.*, (cc.tNombres + ' ' + cc.tApellidos) as tNombre FROM BitEventos be INNER JOIN CatClientes cc ON cc.eCodCliente = be.eCodCliente WHERE be.eCodEvento = ".$_GET['eCodEvento'];
+$rsCotizacion = mysql_query($select);
+$rCotizacion = mysql_fetch_array($rsCotizacion);
 
 $bIVA = $rPublicacion{'bIVA'};
+
 
 //clientes
 $select = "	SELECT 
@@ -139,9 +140,9 @@ $rsClientes = mysql_query($select);
                             
                             <td>
                                 Evento # <?=sprintf("%07d",$_GET['eCodEvento'])?><br>
-                                Fecha de Elaboraci&oacute;n <?=date('d/m/Y H:i',strtotime($rPublicacion{'fhFecha'}))?><br>
-                                Fecha Servicio: <?=date('d/m/Y H:i',strtotime($rPublicacion{'fhFechaEvento'}))?><br>
-                                Hora de Montaje: <?=$rPublicacion{'tmHoraMontaje'}?>
+                                Fecha de Elaboraci&oacute;n <?=date('d/m/Y H:i',strtotime($rCotizacion{'fhFecha'}))?><br>
+                                Fecha Servicio: <?=date('d/m/Y H:i',strtotime($rCotizacion{'fhFechaEvento'}))?><br>
+                                Hora de Montaje: <?=$rCotizacion{'tmHoraMontaje'}?>
                             </td>
                         </tr>
                     </table>
@@ -154,17 +155,17 @@ $rsClientes = mysql_query($select);
                         <tr>
                             <td>
                                  <?
-     while($rPaquete = mysql_fetch_array($rsClientes))
+     while($rCliente = mysql_fetch_array($rsClientes))
 {
          ?>
-                  <?=($rPublicacion{'eCodCliente'}==$rPaquete{'eCodCliente'}) ? $rPaquete{'tNombres'}.' '.$rPaquete{'tApellidos'}.' <br>'.$rPaquete{'tCorreo'}.'<br>Tel.'.$rPaquete{'tTelefonoFijo'}.'<br>Cel.'.$rPaquete{'tTelefonoMovil'} : ''?>
+                  <?=($rCotizacion{'eCodCliente'}==$rCliente{'eCodCliente'}) ? $rCliente{'tNombres'}.' '.$rCliente{'tApellidos'}.' <br>'.$rCliente{'tCorreo'}.'<br>Tel.'.$rCliente{'tTelefonoFijo'}.'<br>Cel.'.$rCliente{'tTelefonoMovil'} : ''?>
                   <?
 }
     ?>
                             </td>
                             
                             <td>
-                                <?=nl2br(base64_decode(utf8_decode($rPublicacion{'tDireccion'})))?>
+                                <?=nl2br(base64_decode(utf8_decode($rCotizacion{'tDireccion'})))?>
                             </td>
                         </tr>
                     </table>
@@ -192,38 +193,45 @@ $rsClientes = mysql_query($select);
                                                             rep.eCodServicio,
                                                             rep.eCantidad,
                                                             cs.eCodServicio,
-                                                            rep.dMonto
+                                                            rep.dMonto,
+                                                            cs.dHoraExtra
                                                         FROM CatServicios cs
                                                         INNER JOIN RelEventosPaquetes rep ON rep.eCodServicio = cs.eCodServicio and rep.eCodTipo = 1
                                                         WHERE rep.eCodEvento = ".$_GET['eCodEvento'];
-											$rsPublicaciones = mysql_query($select);
+											$rsPaquetes = mysql_query($select);
                                             $dTotalEvento = 0;
-											while($rPublicacion = mysql_fetch_array($rsPublicaciones))
+											while($rPaquete = mysql_fetch_array($rsPaquetes))
 											{
+                                                
+                                                $dHoraExtra = $rPaquete{'dHoraExtra'};
 												?>
 											<tr class="item">
                 <td>
-                    <b></b> - <?=utf8_encode($rPublicacion{'tNombre'})?><br><i>
-                        
-                    <?
-                        $select = "SELECT ci.tNombre, rsi.ePiezas FROM CatInventario ci INNER JOIN RelServiciosInventario rsi ON rsi.eCodInventario=ci.eCodInventario WHERE rsi.eCodServicio = ".$rPublicacion{'eCodServicio'};
-                                                $rsDetalle = mysql_query($select);
-                                                while($rDetalle = mysql_fetch_array($rsDetalle))
-                                                {
-                                                    ?>
-                    (<?=$rDetalle{'ePiezas'}?>) <?=($rDetalle{'tNombre'})?>,
-                    <?
-                                                }
-                    ?></i>
+                    <b><?=utf8_encode($rPaquete{'tNombre'})?></b><br>
                 </td>
                 
                 <td>
-                    $<?=number_format($rPublicacion{'dMonto'},2)?>
+                    $<?=number_format($rPaquete{'dMonto'},2)?>
                 </td>
             </tr>
+            
+            
+            
+            <!-- Desglose de paquete -->
+                    <?
+                        $select = "SELECT ci.tNombre, rsi.ePiezas FROM CatInventario ci INNER JOIN RelServiciosInventario rsi ON rsi.eCodInventario=ci.eCodInventario WHERE rsi.eCodServicio = ".$rPaquete{'eCodServicio'};
+                                                $rsDesglose = mysql_query($select);
+                                                while($rDesglose = mysql_fetch_array($rsDesglose))
+                                                {
+                                                    ?>
+                    <tr class="item"><td colspan="2">(<?=$rDesglose{'ePiezas'}?>) <?=($rDesglose{'tNombre'})?></td></tr>
+                    <?
+                                                }
+                    ?>
+            <!-- Desglose de paquete -->
 											<?
 											$i++;
-                                                $dTotalEvento = $dTotalEvento + ($rPublicacion{'dMonto'});
+                                                $dTotalEvento = $dTotalEvento + ($rPaquete{'dMonto'});
 											}
                                             $select = "	SELECT DISTINCT
 															cs.tNombre,
@@ -234,23 +242,23 @@ $rsClientes = mysql_query($select);
                                                         FROM CatInventario cs
                                                         INNER JOIN RelEventosPaquetes rep ON rep.eCodServicio = cs.eCodInventario and rep.eCodTipo = 2
                                                         WHERE rep.eCodEvento = ".$_GET['eCodEvento'];
-											$rsPublicaciones = mysql_query($select);
+											$rsInventario = mysql_query($select);
                                             
-											while($rPublicacion = mysql_fetch_array($rsPublicaciones))
+											while($rInventario = mysql_fetch_array($rsInventario))
 											{
 												?>
 											<tr class="item">
                 <td>
-                    <b></b> - <?=utf8_encode($rPublicacion{'tNombre'})?>
+                    <b></b> - <?=utf8_encode($rInventario{'tNombre'})?>
                 </td>
                 
                 <td>
-                    $<?=number_format($rPublicacion{'dMonto'},2)?>
+                    $<?=number_format($rInventario{'dMonto'},2)?>
                 </td>
             </tr>
 											<?
 											$i++;
-                                                $dTotalEvento = $dTotalEvento + ($rPublicacion{'dMonto'});
+                                                $dTotalEvento = $dTotalEvento + ($rInventario{'dMonto'});
 											}
 											?>
             
@@ -285,6 +293,17 @@ $rsClientes = mysql_query($select);
                 </td>
             </tr>
             <? } ?>
+            <!-- Horas Extra -->
+            <? if((int)$dHoraExtra>0){ ?>
+            <tr>
+                <td colspan="2">
+                    <b><p style="font-size:10px">
+                    Hora Extra: $<?=number_format($dHoraExtra,2,'.',',');?>
+                        </p></b>
+                </td>
+            </tr>
+            <? } ?>
+            <!-- Horas Extra -->
             <tr>
                 <td colspan="2">
                     <p style="font-size:8px">
@@ -301,7 +320,7 @@ $rsClientes = mysql_query($select);
 <br>
 Aviso de confidencialidad:<br><br>
 
-Esta informaci&oacute;n est&aacute; avalada por la ley de protecci&oacute;n de datos, para mayor informaci&oacute;n consulte nuestro aviso de privacidad en la p&aacute;gina: http://www.antroentucasa.com.mx/aviso-legal.html
+Esta informaci&oacute;n est&aacute; avalada por la ley de protecci&oacute;n de datos, para mayor informaci&oacute;n consulte nuestro aviso de privacidad en la p&aacute;gina: 
 </p>
                 </td>
             </tr>

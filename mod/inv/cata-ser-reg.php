@@ -110,6 +110,11 @@ var dPrecio = document.getElementById("dPrecio");
               <textarea class="form-control" name="tDescripcion" id="tDescripcion" placeholder="Descripci&oacute;n" rows="5" style="resize:none;"><?=utf8_decode($rPublicacion{'tDescripcion'})?></textarea>
            </div>
            <div class="form-group">
+              <label>Precio Hora Extra</label>
+              <input type="text" class="form-control" name="dHoraExtra" id="dHoraExtra" placeholder="Precio Hora Extra" value="<?=($rPublicacion{'dHoraExtra'})?>" >
+			   <div><sup>Solo números. Ej. 1200.00</sup></div>
+           </div>
+           <div class="form-group">
               <label>Precio de Venta</label>
               <input type="text" class="form-control" name="dPrecio" id="dPrecio" placeholder="Precio de Venta" value="<?=($rPublicacion{'dPrecioVenta'})?>" >
 			   <div><sup>Solo números. Ej. 1200.00</sup></div>
