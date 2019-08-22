@@ -131,13 +131,13 @@ $rsClientes = mysql_query($select);
 											<div class="tab-content pl-3 pt-2" id="nav-tabContent">
 												<div class="tab-pane fade show active" id="custom-nav-home" role="tabpanel" aria-labelledby="custom-nav-home-tab">
 													
-                                    <table class="display" id="table2">
+                                    <table class="display" id="table2" width="100%">
                                         <thead>
                                            
                                             <tr>
 												<th width="60%">Nombre</th>
                                                 <th width="25%">Cantidad</th>
-                                                <th class="text-right" width="15%"></th>
+                                                <th class="text-right" width="15%">P / C</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -173,13 +173,13 @@ $rsClientes = mysql_query($select);
                                                     </div>
                                                 <div class="tab-pane fade" id="custom-nav-profile" role="tabpanel" aria-labelledby="custom-nav-profile-tab">
 													
-                                    <table class="display" id="table">
+                                    <table class="display" id="table" width="100%">
                                         <thead>
                                            
                                             <tr>
 												<th width="60%">Nombre</th>
                                                 <th width="25%">Cantidad</th>
-                                                <th class="text-right" width="15%"></th>
+                                                <th class="text-right" width="15%">P / C</th>
                                             </tr>
                                         </thead>
                                         <tbody>
