@@ -5,7 +5,7 @@ require_once("lstTiposDocumentos.php");
 $clSistema = new clSis();
 session_start();
 
-$bAll = $clSistema->validarPermiso($_GET['tCodSeccion']);
+$bAll = $_SESSION['bAll'];
 
 $fhFechaInicio = $_POST['fhFechaConsulta'] ? date('Y-m-d',strtotime("+1 month",strtotime($_POST['fhFechaConsulta']))).' 00:00:00' : date('Y-m-d').' 00:00:00';
 $fhFechaTermino = $_POST['fhFechaConsulta'] ? date('Y-m-d',strtotime("+1 month",strtotime($_POST['fhFechaConsulta']))).' 23:59:59' : date('Y-m-d').' 23:59:59';

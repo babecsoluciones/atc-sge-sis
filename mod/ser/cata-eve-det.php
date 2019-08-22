@@ -3,7 +3,7 @@ require_once("cnx/swgc-mysql.php");
 require_once("cls/cls-sistema.php");
 $clSistema = new clSis();
 session_start();
-$bAll = $clSistema->validarPermiso($_GET['tCodSeccion']);
+$bAll = $_SESSION['bAll'];
 $select = "SELECT be.*, (cc.tNombres + ' ' + cc.tApellidos) as tNombre FROM BitEventos be INNER JOIN CatClientes cc ON cc.eCodCliente = be.eCodCliente WHERE be.eCodEvento = ".$_GET['v1'];
 $rsPublicacion = mysql_query($select);
 $rPublicacion = mysql_fetch_array($rsPublicacion);

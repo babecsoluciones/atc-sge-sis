@@ -5,8 +5,8 @@ require_once("cls/cls-sistema.php");
 
 $clSistema = new clSis();
 session_start();
-$bAll = $clSistema->validarPermiso(obtenerScript());
-$bDelete = $clSistema->validarEliminacion(obtenerScript());
+$bAll = $_SESSION['bAll'];
+$bDelete = $_SESSION['bAll'];
 
 if($_GET['bEliminar']==1)
 {
@@ -39,7 +39,7 @@ function exportar()
                             <div class="col-lg-12">
                                 <h2 class="title-1 m-b-25">Clientes</h2>
                                 
-                                    <table class="display" id="cliTable">
+                                    <table class="display" id="cliTable" width="100%">
                                         <thead>
                                             
                                             <tr>

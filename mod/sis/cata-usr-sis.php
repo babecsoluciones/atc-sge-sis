@@ -5,7 +5,7 @@ require_once("cls/cls-sistema.php");
 
 $clSistema = new clSis();
 session_start();
-$bAll = $clSistema->validarPermiso($_GET['tCodSeccion']);
+$bAll = $_SESSION['bAll'];
 if($_GET['bEliminar'])
 {
     mysql_query("UPDATE SisUsuarios SET eCodEstatus=7 WHERE eCodUsuario = ".$_GET['bEliminar']);

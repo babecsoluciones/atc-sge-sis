@@ -13,8 +13,8 @@ if($_GET['eCodInventario'])
     echo '<script>window.location="?tCodSeccion=cata-inv-con";</script>';
 }
 
-//$bAll = $clSistema->validarPermiso(obtenerScript());
-//$bDelete = $clSistema->validarEliminacion(obtenerScript());
+//$bAll = $_SESSION['bAll'];
+//$bDelete = $_SESSION['bAll'];
 
 ?>
 
@@ -69,7 +69,7 @@ function eliminar(eCodInventario)
 													
                                                         <!--tablas-->
                                                        
-                                    <table class="display" id="table<?=$i?>">
+                                    <table class="display" id="table<?=$i?>" width="100%">
                                         <thead>
                                             <tr>
                                                 <th>C&oacute;digo</th>

@@ -18,8 +18,8 @@ if($_GET['bEliminar']==1)
     echo '<script>window.location="?tCodSeccion='.$_GET['tCodSeccion'].'";</script>';
 }
 
-$bAll = $clSistema->validarPermiso(obtenerScript());
-$bDelete = $clSistema->validarEliminacion(obtenerScript());
+$bAll = $_SESSION['bAll'];
+$bDelete = $_SESSION['bAll'];
 
 ?>
  
