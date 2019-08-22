@@ -42,7 +42,7 @@ $rsClientes = mysql_query($select);
                                         <thead>
                                             
                                             <tr>
-                                                <th></th>
+                                                <th>Selec.</th>
                                                 <th>Nombre</th>
                                                 <th>Correo</th>
                                             </tr>
@@ -137,7 +137,7 @@ $rsClientes = mysql_query($select);
                                             <tr>
 												<th width="60%">Nombre</th>
                                                 <th width="25%">Cantidad</th>
-                                                <th class="text-right" width="15%">P / C</th>
+                                                <th width="15%">Agregar</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -179,7 +179,7 @@ $rsClientes = mysql_query($select);
                                             <tr>
 												<th width="60%">Nombre</th>
                                                 <th width="25%">Cantidad</th>
-                                                <th class="text-right" width="15%">P / C</th>
+                                                <th width="15%">Agregar</th>
                                             </tr>
                                         </thead>
                                         <tbody>
