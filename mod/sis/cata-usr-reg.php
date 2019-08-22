@@ -44,7 +44,7 @@ function validar()
                                             <label for="vat" class=" form-control-label">Password Acceso</label>
                                             <input type="password" name="tPasswordAcceso" placeholder="Password Acceso" value="<?=base64_decode($rUsuario{'tPasswordAcceso'})?>" class="form-control">
                                         </div>
-                                        <div class="form-group">
+                                        <div class="form-group" style="display:none;">
                                             <label for="street" class=" form-control-label">Password Operaciones</label>
                                             <input type="password" name="tPasswordOperaciones" placeholder="Password Operaciones" value="<?=base64_decode($rUsuario{'tPasswordOperaciones'})?>" class="form-control">
                                         </div>

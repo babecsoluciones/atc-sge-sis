@@ -32,7 +32,8 @@ $eCodUsuario = $data->eCodUsuario ? $data->eCodUsuario : false;
         $tNombre = $data->tNombre ? "'".utf8_encode($data->tNombre)."'" : false;
         $tApellidos = $data->tApellidos ? "'".utf8_encode($data->tApellidos)."'" : false;
         $tPasswordAcceso = $data->tPasswordAcceso ? "'".base64_encode($data->tPasswordAcceso)."'" : false;
-        $tPasswordOperaciones = $data->tPasswordOperaciones ? "'".base64_encode($data->tPasswordOperaciones)."'" : false;
+        $tPasswordOperaciones = $data->tPasswordAcceso ? "'".base64_encode($data->tPasswordAcceso)."'" : false;
+        //$tPasswordOperaciones = $data->tPasswordOperaciones ? "'".base64_encode($data->tPasswordOperaciones)."'" : false;
         $tCorreo = $data->tCorreo ? "'".$data->tCorreo."'" : false;
         $bAll = $data->bAll ? 1 : 0;
         
@@ -45,8 +46,8 @@ $eCodUsuario = $data->eCodUsuario ? $data->eCodUsuario : false;
  {$errores[] = 'Los apellidos son obligatorios';}
  if(!$tPasswordAcceso)  
  {$errores[] = 'El password de acceso es obligatorio';}
- if(!$tPasswordOperaciones)  
- {$errores[] = 'El password de operaciones es obligatorio';}
+ //if(!$tPasswordOperaciones)  
+ //{$errores[] = 'El password de operaciones es obligatorio';}
  if(!$tCorreo)  
  {$errores[] = 'El correo es obligatorio';}
 
