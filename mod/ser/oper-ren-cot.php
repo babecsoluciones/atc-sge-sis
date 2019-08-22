@@ -120,8 +120,8 @@ $rsClientes = mysql_query($select);
                                 </div>
                                 <div class="col-lg-12" id="cot2" <?=((!$_GET['v1'])? 'style="display:none;"' : '')?>>
                                 
-                                    <div class="card card-body card-block table-responsive">
-                                        <div class="custom-tab">
+                                    <div class="card">
+                                        <div class="custom-tab" style="background-color:rgb(229,229,229)">
 
 											<nav>
 												<div class="nav nav-tabs" id="nav-tab" role="tablist">
