@@ -25,7 +25,7 @@ $bDelete = $_SESSION['bDelete'];
                                         </thead>
                                         <tbody>
 											<?
-											$select = "	SELECT sl.*,su.tNombre as Usuario, su.tApellidos as Apellidos, FROM SisLogs sl LEFT JOIN SisUsuarios su ON su.eCodUsuario = sl.eCodUsuario ORDER BY sl.eCodEvento DESC";
+											$select = "	SELECT sl.*,su.tNombre as Usuario, su.tApellidos as Apellidos FROM SisLogs sl LEFT JOIN SisUsuarios su ON su.eCodUsuario = sl.eCodUsuario ORDER BY sl.eCodEvento DESC";
 											$rsPublicaciones = mysql_query($select);
 											while($rPublicacion = mysql_fetch_array($rsPublicaciones))
 											{
