@@ -13,7 +13,45 @@ $clSistema = new clSistema();
  
 // Check connection
 
+function generarUrl($seccion, $bServidor = true,$accion,$codigo)
+    {
+        $base = explode('-',$seccion);
+        $tAccion = $base[2];
+        $tTipo = $base[0];
+        $tSeccion = $base[1];
+        
+        $select = "SELECT tTitulo, tDirectorio FROM SisSecciones WHERE tCodSeccion = '".$seccion."'";
+        $rAccion = mysql_fetch_array(mysql_query($select));
+        
+        
+        $url = ($rAccion['tDirectorio'] ? $rAccion['tDirectorio'] : $_GET['tDirectorio']).'/'.$seccion.'/'.generarTitulo($seccion).'/'.($codigo ? 'v1/'.$codigo.'/' : '');
+        
+        $servidor = obtenerURL();
+        
+        return ($bServidor ? $servidor : '').$url;
+    }
 
+    function generarTitulo($seccion)
+    {
+        $base = explode('-',$seccion);
+        $tAccion = $base[2];
+        $tTipo = $base[0];
+        $tSeccion = $base[1];
+        
+        $select = "SELECT tNombre FROM SisSeccionesReemplazos WHERE tBase = '".$tAccion."'";
+        $rAccion = mysql_fetch_array(mysql_query($select));
+        
+        $select = "SELECT tNombre FROM SisSeccionesReemplazos WHERE tBase = '".$tTipo."'";
+        $rTipo = mysql_fetch_array(mysql_query($select));
+        
+        $select = "SELECT tNombre FROM SisSeccionesReemplazos WHERE tBase = '".$tSeccion."'";
+        $rSeccion = mysql_fetch_array(mysql_query($select));
+        
+        $url = $rAccion{'tNombre'}.'-'.$rTipo{'tNombre'}.'-'.$rSeccion{'tNombre'};
+        
+        
+        return $url;
+    }
  
 if(isset($_REQUEST["term"])){
     // Prepare a select statement
@@ -43,7 +81,7 @@ if(isset($_REQUEST["term"])){
                 // Fetch result rows as an associative array
                 while($row = mysql_fetch_array($result)){
                     
-                    $url = $clSistema->generarUrl($row{'tCodSeccion'});
+                    $url = generarUrl($row{'tCodSeccion'},true);
                     
                     echo "<p><a href='$url'>" . $row["tTitulo"] . "</a></p>";
                 }
