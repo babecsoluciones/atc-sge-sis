@@ -7,51 +7,13 @@ error_reporting(E_ALL & ~E_WARNING & ~E_NOTICE);
 /* Attempt MySQL server connection. Assuming you are running MySQL
 server with default setting (user 'root' with no password) */
 include("../cnx/swgc-mysql.php");
+include("../inc/fun-ini.php");
 
 session_start();
 
  
 // Check connection
 
-function generarUrl($seccion, $bServidor = true,$accion,$codigo)
-    {
-        $base = explode('-',$seccion);
-        $tAccion = $base[2];
-        $tTipo = $base[0];
-        $tSeccion = $base[1];
-        
-        $select = "SELECT tTitulo, tDirectorio FROM SisSecciones WHERE tCodSeccion = '".$seccion."'";
-        $rAccion = mysql_fetch_array(mysql_query($select));
-        
-        
-        $url = ($rAccion['tDirectorio'] ? $rAccion['tDirectorio'] : $_GET['tDirectorio']).'/'.$seccion.'/'.generarTitulo($seccion).'/'.($codigo ? 'v1/'.$codigo.'/' : '');
-        
-        $servidor = obtenerURL();
-        
-        return ($bServidor ? $servidor : '').$url;
-    }
-
-    function generarTitulo($seccion)
-    {
-        $base = explode('-',$seccion);
-        $tAccion = $base[2];
-        $tTipo = $base[0];
-        $tSeccion = $base[1];
-        
-        $select = "SELECT tNombre FROM SisSeccionesReemplazos WHERE tBase = '".$tAccion."'";
-        $rAccion = mysql_fetch_array(mysql_query($select));
-        
-        $select = "SELECT tNombre FROM SisSeccionesReemplazos WHERE tBase = '".$tTipo."'";
-        $rTipo = mysql_fetch_array(mysql_query($select));
-        
-        $select = "SELECT tNombre FROM SisSeccionesReemplazos WHERE tBase = '".$tSeccion."'";
-        $rSeccion = mysql_fetch_array(mysql_query($select));
-        
-        $url = $rAccion{'tNombre'}.'-'.$rTipo{'tNombre'}.'-'.$rSeccion{'tNombre'};
-        
-        
-        return $url;
-    }
  
 if(isset($_REQUEST["term"])){
     // Prepare a select statement
