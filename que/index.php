@@ -7,9 +7,8 @@ error_reporting(E_ALL & ~E_WARNING & ~E_NOTICE);
 /* Attempt MySQL server connection. Assuming you are running MySQL
 server with default setting (user 'root' with no password) */
 include("../cnx/swgc-mysql.php");
-require("../cls/cl-sistema.php");
 
-$clSistema = new clSistema();
+
  
 // Check connection
 
