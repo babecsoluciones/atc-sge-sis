@@ -79,11 +79,15 @@ class clSis
 
 		      $rsMenus = mysql_query($select);
             
-              if(!mysql_num_rows($rsMenus))
+              if(mysql_num_rows($rsMenus)==1)
               {
+                  $rMenu = mysql_fetch_array($rsMenus);
+                  $url = $this->generarUrl($rMenu{'tCodSeccion'});
+		          $activo = ($_GET['tCodSeccion']==$rMenu{'tCodSeccion'}) ? 'class="active"' : '';
+		          $bArchivo = $url;
                   
                   $tMenu .= '<li '.$activo.'>
-                                      <a href="'.$this->url.$bArchivo.'"><i class="fas fa-tachometer-alt"></i>'.utf8_decode($rMenu{'tTitulo'}).'</a>
+                                      <a href="'.$this->url.$bArchivo.'"><i class="'.($rMenu{'tIcono'}).'"></i>'.utf8_decode($rMenu{'tTitulo'}).'</a>
                                   </li>';
                   
               }
@@ -95,7 +99,7 @@ class clSis
                             <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">';
 		          while($rMenu = mysql_fetch_array($rsMenus))
 		          {
-                      $url = $this->generarUrl($rMenu{'tCodSeccion'});
+                        $url = $this->generarUrl($rMenu{'tCodSeccion'});
 		          	    $activo = ($_GET['tCodSeccion']==$rMenu{'tCodSeccion'}) ? 'class="active"' : '';
 		          	    $bArchivo = $url;
 		          	    $tMenu .= '<li '.$activo.'>
