@@ -95,7 +95,7 @@ class clSis
               {
                   $tMenu .= '<li class="has-sub">
                             <a class="js-arrow" href="#">
-                                <i class="fa fa-folder"></i>'.$rTipoSeccion{'tNombre'}.'</a>
+                                <i class="'.($rTipoSeccion{'tIcono'}).'"></i>'.$rTipoSeccion{'tNombre'}.'</a>
                             <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">';
 		          while($rMenu = mysql_fetch_array($rsMenus))
 		          {
