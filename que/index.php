@@ -90,7 +90,7 @@ if(isset($_REQUEST["term"])){
     }
     else
     {
-        echo '<p>ERROR: La sentencia '.$sql.' no pudo ser ejecutada '.mysql_error().'</p>';
+        echo '<p>ERROR: La sentencia '.$select.' no pudo ser ejecutada '.mysql_error().'</p>';
     }
     
    
