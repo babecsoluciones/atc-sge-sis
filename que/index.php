@@ -43,7 +43,7 @@ if(isset($_REQUEST["term"])){
                 // Fetch result rows as an associative array
                 while($row = mysql_fetch_array($result)){
                     
-                    $url = $clSistema->generarUrl($row{'tCodSeccion'})
+                    $url = $clSistema->generarUrl($row{'tCodSeccion'});
                     
                     echo "<p><a href='$url'>" . $row["tTitulo"] . "</a></p>";
                 }
