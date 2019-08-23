@@ -8,6 +8,7 @@ error_reporting(E_ALL & ~E_WARNING & ~E_NOTICE);
 server with default setting (user 'root' with no password) */
 include("../cnx/swgc-mysql.php");
 
+session_start();
 
  
 // Check connection
