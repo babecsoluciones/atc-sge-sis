@@ -82,7 +82,7 @@ if(!$_SESSION['sessionAdmin'] || !$_GET['tCodSeccion'])
             <div class="header-mobile__bar">
                 <div class="container-fluid">
                     <div class="header-mobile-inner">
-                        <a class="logo" href="index.html">
+                        <a class="logo" href="#">
                             <img src="/images/icon/logo-black.png" alt="SGE" />
                         </a>
                         <button class="hamburger hamburger--slider" type="button">
@@ -110,8 +110,8 @@ if(!$_SESSION['sessionAdmin'] || !$_GET['tCodSeccion'])
         <!-- MENU SIDEBAR-->
         <aside class="menu-sidebar d-none d-lg-block">
             <div class="logo">
-                <a href="index.php?tCodSeccion=inicio">
-                    <img src="/images/icon/logo-black.png" alt="SWGC" />
+                <a href="#">
+                    <img src="/images/icon/logo-black.png" alt="SGE" />
                 </a>
             </div>
             <div class="menu-sidebar__content js-scrollbar1">
