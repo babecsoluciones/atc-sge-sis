@@ -31,7 +31,7 @@ if(isset($_REQUEST["term"])){
 					ssp.eCodPerfil = ".$_SESSION['sessionAdmin']['eCodPerfil']).
                     " AND ss.bPublico IS NULL".
                     " AND ss.tTitulo like '%".$_REQUEST["term"]."%'".
-                    " ORDER BY ss.ePosicion ASC";
+                    " ORDER BY ss.tCodPadre ASC, ss.ePosicion ASC";
     
     
             $result = mysql_query($select);
