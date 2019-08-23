@@ -73,6 +73,43 @@ if(!$_SESSION['sessionAdmin'] || !$_GET['tCodSeccion'])
     
     <link href="/ext/autocomplete/easy-autocomplete.min.css" rel="stylesheet" media="all">
     
+    <style type="text/css">
+    .search-box{
+        width: 300px;
+        position: relative;
+        display: inline-block;
+        font-size: 14px;
+    }
+    .search-box input[type="text"]{
+        height: 32px;
+        padding: 5px 10px;
+        border: 1px solid #CCCCCC;
+        font-size: 14px;
+    }
+    .result{
+        position: absolute;        
+        z-index: 999;
+        top: 100%;
+        left: 0;
+        background-color: #FFF;
+    }
+    .search-box input[type="text"], .result{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    /* Formatting result items */
+    .result p{
+        margin: 0;
+        padding: 7px 10px;
+        border: 1px solid #CCCCCC;
+        border-top: none;
+        cursor: pointer;
+    }
+    .result p:hover{
+        background: #f2f2f2;
+    }
+    </style>
+    
 </head>
 
 <body class="animsition">
@@ -136,8 +173,9 @@ if(!$_SESSION['sessionAdmin'] || !$_GET['tCodSeccion'])
                     <div class="container-fluid">
                         <div class="header-wrap">
                             <form class="form-header" action="" method="POST">
-                                <!--<input class="au-input au-input--xl" type="text" name="search" placeholder="Search for datas &amp; reports..." />
-                                <button class="au-btn--submit" type="submit">
+                                <input class="au-input au-input--xl" type="text" name="search" placeholder="Ir a..." />
+                                <div class="result"></div>
+                                <!--<button class="au-btn--submit" type="submit">
                                     <i class="zmdi zmdi-search"></i>
                                 </button>-->
                             </form>
@@ -955,7 +993,27 @@ setTimeout(function(){
           
           $('#eCodCliente1').select2();
           
-         
+        /* ******* Búsqueda ******** */ 
+           $('.form-header input[type="text"]').on("keyup input", function(){
+        /* Get input value on change */
+        var inputVal = $(this).val();
+        var resultDropdown = $(this).siblings(".result");
+        if(inputVal.length){
+            $.get("que/index.php", {term: inputVal}).done(function(data){
+                // Display the returned data in browser
+                resultDropdown.html(data);
+            });
+        } else{
+            resultDropdown.empty();
+        }
+    });
+    
+    // Set search input value on click of result item
+    $(document).on("click", ".result p", function(){
+        $(this).parents(".form-header").find('input[type="text"]').val($(this).text());
+        $(this).parent(".result").empty();
+    });
+        /* ******* Búsqueda ******** */ 
            
       } );
         </script>  
