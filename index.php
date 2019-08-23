@@ -999,7 +999,7 @@ setTimeout(function(){
         var inputVal = $(this).val();
         var resultDropdown = $(this).siblings(".result");
         if(inputVal.length){
-            $.get("que/index.php", {term: inputVal}).done(function(data){
+            $.get("/que/index.php", {term: inputVal}).done(function(data){
                 // Display the returned data in browser
                 resultDropdown.html(data);
             });
