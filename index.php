@@ -96,10 +96,7 @@ if(!$_SESSION['sessionAdmin'] || !$_GET['tCodSeccion'])
             <nav class="navbar-mobile">
                 <div class="container-fluid">
                     <ul class="navbar-mobile__list list-unstyled">
-                        <li class="active">
-                            <a class="js-arrow" href="/das/sis-dash-con/consultar-sistema-dashboard/">
-                                <i class="fas fa-tachometer-alt"></i>Dashboard</a>
-                        </li>
+                        
 						<?
 						echo $clSistema->generarMenu();
 						?>
@@ -120,10 +117,7 @@ if(!$_SESSION['sessionAdmin'] || !$_GET['tCodSeccion'])
             <div class="menu-sidebar__content js-scrollbar1">
                 <nav class="navbar-sidebar">
                     <ul class="list-unstyled navbar__list">
-                        <li <?=$_GET['tCodSeccion']=='inicio' ? 'class="active"' : '' ?>>
-                            <a class="js-arrow" href="/das/sis-dash-con/consultar-sistema-dashboard/">
-                                <i class="fas fa-tachometer-alt"></i>Dashboard</a>
-                        </li>
+                        
 						<?
 						echo $clSistema->generarMenu();
 						?>
