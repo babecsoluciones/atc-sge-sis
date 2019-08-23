@@ -173,7 +173,7 @@ if(!$_SESSION['sessionAdmin'] || !$_GET['tCodSeccion'])
                     <div class="container-fluid">
                         <div class="header-wrap">
                             <form class="form-header" action="" method="POST">
-                                <input class="au-input au-input--xl" type="text" name="search" placeholder="Ir a..." />
+                                <input class="au-input au-input--xl" type="text" name="search" placeholder="Ir a..."  autocomplete="off"/>
                                 <div class="result"></div>
                                 <!--<button class="au-btn--submit" type="submit">
                                     <i class="zmdi zmdi-search"></i>
