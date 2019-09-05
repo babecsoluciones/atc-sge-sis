@@ -905,6 +905,35 @@ setTimeout(function(){
           consultarFecha();
       }
             
+    function cambiarFechaEvento(mes,anio)
+      {
+          document.getElementById('nvaFecha').value=mes+'-'+anio;
+          
+          var obj = $('#datos').serializeJSON();
+          var jsonString = JSON.stringify(obj);
+          
+          $.ajax({
+              type: "POST",
+              url: "<?=obtenerURL();?>inc/cal-cot.php",
+              data: jsonString,
+              contentType: "application/json; charset=utf-8",
+              dataType: "json",
+              success: function(data){
+                  document.getElementById('calendario').innerHTML = data.calendario;
+              },
+              failure: function(errMsg) {
+                  alert('Error al enviar los datos.');
+              }
+          });
+          
+      }
+            
+    function asignarFechaEvento(fecha,etiqueta,codigo)
+      {
+          document.getElementById('fhFechaEvento').value=fecha;
+          document.getElementById('tFechaConsulta').innerHTML = '<br><h2>'+etiqueta+'</h2>';
+      }
+            
     function validarCarga()
       {
           var cmbTotal = document.querySelectorAll("[id^=eCodInventario]"),
@@ -969,10 +998,15 @@ setTimeout(function(){
                   cambiarFecha(<?=date('m');?>,<?=date('Y');?>,1);
               }
           
+          if(document.getElementById('datos') && document.getElementById('calendario'))
+              {
+                  cambiarFechaEvento(<?=date('m');?>,<?=date('Y');?>);
+              }
+          
           $( "#datepicker" ).datepicker();
           
           $("#datepicker").click(function() {
-              alert("HI");
+              
     // this is the selected element
     //var date = $(this).datepicker("getDate");
               var date = $("#datepicker").datepicker({ dateFormat: 'dd,MM,yyyy' }).val();

@@ -27,22 +27,49 @@ $select = "	SELECT
 														" ORDER BY cc.eCodCliente ASC";
 $rsClientes = mysql_query($select);
 
+$horas = array();
+
+$horas[] = array('00:00','00:00 - 05:00');
+$horas[] = array('01:00','01:00 - 06:00');
+$horas[] = array('02:00','02:00 - 07:00');
+$horas[] = array('03:00','03:00 - 08:00');
+$horas[] = array('04:00','04:00 - 09:00');
+$horas[] = array('05:00','05:00 - 10:00');
+$horas[] = array('06:00','06:00 - 11:00');
+$horas[] = array('07:00','07:00 - 12:00');
+$horas[] = array('08:00','08:00 - 13:00');
+$horas[] = array('09:00','09:00 - 14:00');
+$horas[] = array('10:00','10:00 - 15:00');
+$horas[] = array('11:00','11:00 - 16:00');
+$horas[] = array('12:00','12:00 - 17:00');
+$horas[] = array('13:00','13:00 - 18:00');
+$horas[] = array('14:00','14:00 - 19:00');
+$horas[] = array('15:00','15:00 - 20:00');
+$horas[] = array('16:00','16:00 - 21:00');
+$horas[] = array('17:00','17:00 - 22:00');
+$horas[] = array('18:00','18:00 - 23:00');
+$horas[] = array('19:00','19:00 - 00:00');
+$horas[] = array('20:00','20:00 - 01:00');
+$horas[] = array('21:00','21:00 - 02:00');
+$horas[] = array('22:00','22:00 - 03:00');
+$horas[] = array('23:00','23:00 - 04:00');
 ?>
 
 <div class="row">
     <div class="col-lg-12">
     <form id="datos" name="datos" action="<?=$_SERVER['REQUEST_URI']?>" method="post" enctype="multipart/form-data">
         <input type="hidden" name="eCodEvento" id="eCodEvento" value="<?=$_GET['v1']?>">
+        <input type="hidden" name="nvaFecha" id="nvaFecha">
         <input type="hidden" name="eAccion" id="eAccion">
                             <div class="col-lg-12">
 								<h2 class="title-1 m-b-25"><?=$_GET['v1'] ? 'Actualizar ' : '+ '?>Evento</h2>
                                 
                                 <div id="mostrarTabla" <?=(($_GET['v1'])? 'style="display:none;"' : '')?> class="col-lg-12">
-                                <table class="display" id="misClientes1" width="100%">
+                                <table class="display" width="100%" id="misClientes1">
                                         <thead>
                                             
                                             <tr>
-                                                <th>Selec.</th>
+                                                <th></th>
                                                 <th>Nombre</th>
                                                 <th>Correo</th>
                                             </tr>
@@ -93,16 +120,27 @@ $rsClientes = mysql_query($select);
            
            <div class="form-group">
               <label>I.V.A ?<input type="checkbox" class="form-control" name="bIVA" id="bIVA" value="1" <?=$rPublicacion{'bIVA'} ? "checked" : ""?> onclick="calcular();"></label>
-              
            </div>
+           <div class="form-group" style="display:none;">
+              <label>Incluir Hora Extra ?<input type="checkbox" class="form-control" name="bHoraExtra" id="bHoraExtra" value="1" <?=$rPublicacion{'bHoraExtra'} ? "checked" : ""?>></label>
+           </div>
+                                        
            <div class="form-group">
               <label>Fecha del Evento</label>
-              <input type="text" class="form-control" name="fhFechaEvento" id="fhFechaEvento" placeholder="dd-mm-YYYY HH:mm" onkeyup="fecha(this.id)" value="<?=$rPublicacion{'fhFechaEvento'} ? date('d-m-Y H:i',strtotime($rPublicacion{'fhFechaEvento'})) : ""?>" >
+              <input type="hidden" class="form-control" name="fhFechaEvento" id="fhFechaEvento" value="<?=$rPublicacion{'fhFechaEvento'} ? date('Y-m-d',strtotime($rPublicacion{'fhFechaEvento'})) : ""?>" >
+               <div id="calendario" class="col-md-4"></div>
+               <div id="tFechaConsulta" style="text-align:center;" class="col-md-4"><?=$rPublicacion{'fhFechaEvento'} ? date('d/m/Y',strtotime($rPublicacion{'fhFechaEvento'})) : ""?></div>
            </div>
            <div class="form-group">
-              <label>Hora de Montaje</label>
-              <input type="text" class="form-control" name="tmHoraMontaje" id="tmHoraMontaje" placeholder="HH:mm" onkeyup="hora(this.id)"value="<?=$rPublicacion{'tmHoraMontaje'}?>" >
+              <label>Hora de Servicio</label>
+              <select id="tmHoraServicio" name="tmHoraServicio" class="form-control">
+               <option value="">Seleccione...</option>
+                    <? for($i=0;$i<sizeof($horas);$i++) { ?>
+                    <option value="<?=$horas[$i][0]?>" <?=(($rPublicacion{'fhFechaEvento'} && ($horas[$i][0]==date('H:i',strtotime($rPublicacion{'fhFechaEvento'})))) ? 'selected="selected"' : '')?>><?=$horas[$i][1]?></option>
+                    <? } ?>
+               </select>
            </div>
+                                        
            <div class="form-group">
               <label>Direcci&oacute;n</label>
               <textarea class="form-control" rows="5" style="resize:none;" name="tDireccion" id="tDireccion" maxlength="250"><?=base64_decode(utf8_decode($rPublicacion{'tDireccion'}))?></textarea>
@@ -117,8 +155,8 @@ $rsClientes = mysql_query($select);
                                 </div>
                                 <div class="col-lg-12" id="cot2" <?=((!$_GET['v1'])? 'style="display:none;"' : '')?>>
                                 
-                                    <div class="card">
-                                        <div class="custom-tab" style="background-color:rgb(229,229,229)">
+                                    <div class="card card-body card-block table-responsive">
+                                        <div class="custom-tab">
 
 											<nav>
 												<div class="nav nav-tabs" id="nav-tab" role="tablist">
@@ -131,13 +169,13 @@ $rsClientes = mysql_query($select);
 											<div class="tab-content pl-3 pt-2" id="nav-tabContent">
 												<div class="tab-pane fade show active" id="custom-nav-home" role="tabpanel" aria-labelledby="custom-nav-home-tab">
 													
-                                    <table class="display" id="table2" width="100%">
+                                    <table class="display" width="100%" id="table2">
                                         <thead>
                                            
                                             <tr>
 												<th width="60%">Nombre</th>
                                                 <th width="25%">Cantidad</th>
-                                                <th width="15%">Agregar</th>
+                                                <th class="text-right" width="15%"></th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -173,13 +211,13 @@ $rsClientes = mysql_query($select);
                                                     </div>
                                                 <div class="tab-pane fade" id="custom-nav-profile" role="tabpanel" aria-labelledby="custom-nav-profile-tab">
 													
-                                    <table class="display" id="table" width="100%">
+                                    <table class="display" width="100%" id="table">
                                         <thead>
                                            
                                             <tr>
 												<th width="60%">Nombre</th>
                                                 <th width="25%">Cantidad</th>
-                                                <th width="15%">Agregar</th>
+                                                <th class="text-right" width="15%"></th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -225,7 +263,7 @@ $rsClientes = mysql_query($select);
 										</div>
                                
                                     <div class="card col-lg-12">
-                                        <table class="display" id="paquetes">
+                                        <table class="display" width="100%" id="paquetes">
                                         <thead>
                                             <tr>
                                                 <th></th>
@@ -474,9 +512,9 @@ nIndice++;
                 mensaje += "*Fecha del evento\n";
                 bandera = true;
             }
-        if(!document.getElementById('tmHoraMontaje').value)
+        if(!document.getElementById('tmHoraServicio').value)
             {
-                mensaje += "*Hora de montaje\n";
+                mensaje += "*Hora de servicio\n";
                 bandera = true;
             }
         if(!document.getElementById('tDireccion').value)
@@ -537,6 +575,19 @@ function hora(objeto)
         document.getElementById('cot3').style.display = 'none';
     }
     
+    function horaExtra()
+    {
+        var bHoraExtra = document.getElementById('bHoraExtra'),
+            horaExtra  = document.getElementById('horaExtra');
+        
+        if(bHoraExtra.checked==true){ horaExtra.style.display='inline'; }
+        else{ horaExtra.style.display='none'; }
+    }
+    
     calcular();
+    
+    <? if($_GET['v1']) {?>
+    setTimeout(function(){ cambiarFechaEvento(<?=date('m');?>,<?=date('Y');?>); },1500);
+    <? } ?>
 
 		</script>

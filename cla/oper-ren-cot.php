@@ -21,24 +21,27 @@ $errores = array();
 
 $data = json_decode( file_get_contents('php://input') );
 
-fwrite($pf,json_encode($data)."\n\n");
-
 $eCodEvento = $data->eCodEvento ? $data->eCodEvento : false;
         $eCodCliente = $data->eCodCliente ? $data->eCodCliente : "NULL";
-        $eCodUsuario = $_SESSION['sessionAdmin']['eCodUsuario'];
-        $fhFechaEvento = $data->fhFechaEvento ? "'".date('Y-m-d H:i',strtotime($data->fhFechaEvento))."'" : "NULL";
-        $tmHoraMontaje = $data->tmHoraMontaje ? "'".$data->tmHoraMontaje."'" : "NULL";
+        $eCodUsuario = $_SESSION['sessionAdmin'][0]['eCodUsuario'];
+        $fhFechaEvento = $data->fhFechaEvento ? "'".date('Y-m-d',strtotime($data->fhFechaEvento))." ".$data->tmHoraServicio."'" : "NULL";
+        $tmHoraMontaje = "'".date('H:i', strtotime('-2 hours', strtotime($data->tmHoraServicio)))."'";
+        //$tmHoraMontaje = $data->tmHoraMontaje ? "'".$data->tmHoraMontaje."'" : "NULL";
         $tDireccion = $data->tDireccion ? "'".base64_encode($data->tDireccion)."'" : "NULL";
         $tObservaciones = $data->tObservaciones ? "'".base64_encode($data->tObservaciones)."'" : "NULL";
+        $bHoraExtra = $data->bHoraExtra ? $data->bHoraExtra : 0;
+        $dHoraExtra = $data->dHoraExtra ? $data->dHoraExtra : "NULL";
         $eCodEstatus = 1;
         $eCodTipoDocumento = 2;
         $bIVA = $data->bIVA ? $data->bIVA : "NULL";
         
         $fhFecha = "'".date('Y-m-d H:i:s')."'";
+
+        $tDescripcion = "";
         
         if(!$eCodEvento)
         {
-            $query = "INSERT INTO BitEventos (
+          $query = "INSERT INTO BitEventos (
                             eCodUsuario,
 							eCodEstatus,
                             eCodCliente,
@@ -48,7 +51,9 @@ $eCodEvento = $data->eCodEvento ? $data->eCodEvento : false;
                             tObservaciones,
                             eCodTipoDocumento,
                             bIVA,
-                            fhFecha)
+                            fhFecha,
+                            bHoraExtra,
+                            dHoraExtra)
                             VALUES
                             (
                             $eCodUsuario,
@@ -60,10 +65,12 @@ $eCodEvento = $data->eCodEvento ? $data->eCodEvento : false;
                             $tObservaciones,
                             $eCodTipoDocumento,
                             $bIVA,
-                            $fhFecha)";
+                            $fhFecha,
+                            $bHoraExtra,
+                            $dHoraExtra)";
             
            
-            fwrite($pf,$query."\n\n");
+            $tDescripcion .= $query." \n\n";
             
             
             $rsEvento = mysql_query($query);
@@ -83,9 +90,7 @@ $eCodEvento = $data->eCodEvento ? $data->eCodEvento : false;
                     
                     $insert = "INSERT INTO RelEventosPaquetes (eCodEvento, eCodServicio, eCantidad,eCodTipo,dMonto) VALUES ($eCodEvento, $eCodServicio, $eCantidad, $eCodTipo, $dMonto)";
                     
-                    fwrite($pf,json_encode($cotizacion)."\n\n");
-                    
-                    fwrite($pf,$insert."\n\n");
+                    $tDescripcion .= $insert." \n\n";
                     
                     $rs = mysql_query($insert);
 
@@ -113,10 +118,12 @@ $eCodEvento = $data->eCodEvento ? $data->eCodEvento : false;
                             tmHoraMontaje = $tmHoraMontaje,
                             tDireccion = $tDireccion,
                             tObservaciones = $tObservaciones,
-                            bIVA = $bIVA
+                            bIVA = $bIVA,
+                            bHoraExtra = $bHoraExtra,
+                            dHoraExtra = $dHoraExtra
                             WHERE eCodEvento = $eCodEvento";
                             
-                            fwrite($pf,$query."\n\n");
+                            $tDescripcion .= $query." \n\n";
                             
             $rsEvento = mysql_query($query);
             if($rsEvento)
@@ -136,9 +143,7 @@ $eCodEvento = $data->eCodEvento ? $data->eCodEvento : false;
                     
                     $rs = mysql_query($insert);
                     
-                    fwrite($pf,json_encode($cotizacion)."\n\n");
-                    
-                    fwrite($pf,$insert."\n\n");
+                    $tDescripcion .= $insert." \n\n";
 
                     if(!$rs)
                     {
@@ -155,6 +160,7 @@ $eCodEvento = $data->eCodEvento ? $data->eCodEvento : false;
             else
             {
                 $errores[] = 'Error al insertar la cotización del evento '.mysql_error();
+                fwrite($pf,$tRescripcion."\n --- nuevo evento -- \n\n");
             }
         }
 
